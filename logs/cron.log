@@ -1,0 +1,2342 @@
+----- RUN START Fri Apr 24 05:57:54 PM PKT 2026 -----
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/news_url_collector.py", line 1, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+🔎 Found 29 URLs
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-robert-lewandowski-transfer-ac-milan-juventus-usmnt-pulisic-mckennie/bltd36a5f7bd16a6e34
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/manuel-ugarte-transfer-listed-man-utd-sir-jim-ratcliffe-leeds-united-display/blt90edc83e85ac963e
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/juventus-ready-to-table-bernardo-silva-offer-barcelona-also-eye-free-transfer-man-city-icon/blt9bd75ce6787a9672
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-in-pole-position-to-win-elliot-anderson-transfer-race-ahead-of-man-utd/blt82ac95c296f42500
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jadon-sancho-open-to-third-borussia-dortmund-spell-niko-kovac-green-lights-free-transfer-swoop-for-man-utd-outcast/blt39c9da8c6fe1be70
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/sergio-aguero-reveals-when-lionel-messi-will-make-decision-inter-miami-future-hopes-neymar-joins-argentine-mls/blt7dea4124bf2e83ed
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/nicolas-jackson-set-return-to-chelsea-bayern-munich-not-planning-keep-him-despite-impressive-form-harry-kane-stand-in/blt337209e207dc442d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/enzo-fernandez-man-city-chelsea-transfer-news/blt5b61be6098fe125d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arsenal-transfer-news-arda-guler-real-madrid-interest/blte8771561a0902d7d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/bruno-fernandes-man-utd-future-decision-transfer-news/bltd6f93bfa3202b053
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-transfer-news-marcus-rashford-man-utd-return-loan-decision/bltdd43cc916f8f7719
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-leny-yoro-ayden-heaven-partnership-micky-van-de-ven-transfer-target/bltca476204fed7550b
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-chelsea-lead-chase-james-trafford-tranfer-man-city-goalkeeper-gianluigi-donnarumma/blt0beff432ffe610b9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-plotting-transfer-swoop-for-real-madrid-star-to-address-priority-position/bltf8bc1678cee98caa
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/marcus-rashford-and-frenkie-de-jong-among-five-barcelona-stars-set-to-be-moved-on-in-summer-transfer-window/blt6b394fcec816c145
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-news-jamie-carragher-todd-boehly-blueco-liam-rosenior-mismanagement/blt06fca2d6a198e2c0
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lisandro-martinez-man-utd-hair-pull-dominic-calvert-lewin-appeal-verdict/bltfcd24dad66a00a9d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-new-stadium-sebastian-coe-regeneration-update/blt9f78af809d750146
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-manager-news-jose-mourinho-stamford-bridge-return-liam-rosenior/blt0993c76d41c770e7
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arne-slot-alexander-isak-best-level-liverpool-mohamed-salah/bltc1a4ef4d52c59649
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-injury-news-hugo-ekitike-arne-slot-achilles-surgery-update/blt1550c033586f6484
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jorge-mendes-advice-lamine-yamal-cristiano-ronaldo-lionel-messi/blt4e315669081b9cd5
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/real-madrid-manager-news-florentino-perez-alvaro-arbeloa-mourinho-klopp/blt3307493d0d2d32d8
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-james-trafford-gianluigi-donnarumma-learning-experience-transfer/blt714a350be35a2ef9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/england-world-cup-squad-morgan-gibbs-white-nottingham-forest-thomas-tuchel/bltaa98a21b1a751c81
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-william-gallas-cesc-fabregas-diego-simeone-liam-rosenior-sacking/blt060844cdf94b51b6
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/rodri-man-city-injury-fixture-schedule-warning-premier-league/blt9995c92e78c121fe
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lamine-yamal-barcelona-injury-blame-mcdonalds-private-jet-row/blt596df74b499bd99c
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/cristiano-ronaldo-portugal-2026-world-cup-fernando-hierro-comments/blt5e02dd668a823165
+✅ Updated
+
+✅ DONE
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/video_scraper.py", line 654, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+----- RUN END Fri Apr 24 05:58:31 PM PKT 2026 -----
+----- RUN START Fri Apr 24 06:00:01 PM PKT 2026 -----
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/news_url_collector.py", line 1, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+🔎 Found 29 URLs
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-robert-lewandowski-transfer-ac-milan-juventus-usmnt-pulisic-mckennie/bltd36a5f7bd16a6e34
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/manuel-ugarte-transfer-listed-man-utd-sir-jim-ratcliffe-leeds-united-display/blt90edc83e85ac963e
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/juventus-ready-to-table-bernardo-silva-offer-barcelona-also-eye-free-transfer-man-city-icon/blt9bd75ce6787a9672
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-in-pole-position-to-win-elliot-anderson-transfer-race-ahead-of-man-utd/blt82ac95c296f42500
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jadon-sancho-open-to-third-borussia-dortmund-spell-niko-kovac-green-lights-free-transfer-swoop-for-man-utd-outcast/blt39c9da8c6fe1be70
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/sergio-aguero-reveals-when-lionel-messi-will-make-decision-inter-miami-future-hopes-neymar-joins-argentine-mls/blt7dea4124bf2e83ed
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/nicolas-jackson-set-return-to-chelsea-bayern-munich-not-planning-keep-him-despite-impressive-form-harry-kane-stand-in/blt337209e207dc442d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/enzo-fernandez-man-city-chelsea-transfer-news/blt5b61be6098fe125d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arsenal-transfer-news-arda-guler-real-madrid-interest/blte8771561a0902d7d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/bruno-fernandes-man-utd-future-decision-transfer-news/bltd6f93bfa3202b053
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-transfer-news-marcus-rashford-man-utd-return-loan-decision/bltdd43cc916f8f7719
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-leny-yoro-ayden-heaven-partnership-micky-van-de-ven-transfer-target/bltca476204fed7550b
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-chelsea-lead-chase-james-trafford-tranfer-man-city-goalkeeper-gianluigi-donnarumma/blt0beff432ffe610b9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-plotting-transfer-swoop-for-real-madrid-star-to-address-priority-position/bltf8bc1678cee98caa
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/marcus-rashford-and-frenkie-de-jong-among-five-barcelona-stars-set-to-be-moved-on-in-summer-transfer-window/blt6b394fcec816c145
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-news-jamie-carragher-todd-boehly-blueco-liam-rosenior-mismanagement/blt06fca2d6a198e2c0
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lisandro-martinez-man-utd-hair-pull-dominic-calvert-lewin-appeal-verdict/bltfcd24dad66a00a9d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-new-stadium-sebastian-coe-regeneration-update/blt9f78af809d750146
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-manager-news-jose-mourinho-stamford-bridge-return-liam-rosenior/blt0993c76d41c770e7
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arne-slot-alexander-isak-best-level-liverpool-mohamed-salah/bltc1a4ef4d52c59649
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-injury-news-hugo-ekitike-arne-slot-achilles-surgery-update/blt1550c033586f6484
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jorge-mendes-advice-lamine-yamal-cristiano-ronaldo-lionel-messi/blt4e315669081b9cd5
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/real-madrid-manager-news-florentino-perez-alvaro-arbeloa-mourinho-klopp/blt3307493d0d2d32d8
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-james-trafford-gianluigi-donnarumma-learning-experience-transfer/blt714a350be35a2ef9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/england-world-cup-squad-morgan-gibbs-white-nottingham-forest-thomas-tuchel/bltaa98a21b1a751c81
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-william-gallas-cesc-fabregas-diego-simeone-liam-rosenior-sacking/blt060844cdf94b51b6
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/rodri-man-city-injury-fixture-schedule-warning-premier-league/blt9995c92e78c121fe
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lamine-yamal-barcelona-injury-blame-mcdonalds-private-jet-row/blt596df74b499bd99c
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/cristiano-ronaldo-portugal-2026-world-cup-fernando-hierro-comments/blt5e02dd668a823165
+✅ Updated
+
+✅ DONE
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/video_scraper.py", line 654, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+----- RUN END Fri Apr 24 06:00:34 PM PKT 2026 -----
+[?2004h)0[1;24r[m(B[4l[?7h[?25l[H[J[22;34H[0;7m(B[ Reading... ][m(B[22;32H[0;7m(B[ Read 24 lines ][m(B[?25h[24;1H[?2004lStandard input is not a terminal
+crontab: "/usr/bin/sensible-editor" exited with status 1
+----- RUN START Fri Apr 24 06:03:01 PM PKT 2026 -----
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/news_url_collector.py", line 1, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+🔎 Found 29 URLs
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-robert-lewandowski-transfer-ac-milan-juventus-usmnt-pulisic-mckennie/bltd36a5f7bd16a6e34
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/manuel-ugarte-transfer-listed-man-utd-sir-jim-ratcliffe-leeds-united-display/blt90edc83e85ac963e
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/juventus-ready-to-table-bernardo-silva-offer-barcelona-also-eye-free-transfer-man-city-icon/blt9bd75ce6787a9672
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-in-pole-position-to-win-elliot-anderson-transfer-race-ahead-of-man-utd/blt82ac95c296f42500
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jadon-sancho-open-to-third-borussia-dortmund-spell-niko-kovac-green-lights-free-transfer-swoop-for-man-utd-outcast/blt39c9da8c6fe1be70
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/sergio-aguero-reveals-when-lionel-messi-will-make-decision-inter-miami-future-hopes-neymar-joins-argentine-mls/blt7dea4124bf2e83ed
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/nicolas-jackson-set-return-to-chelsea-bayern-munich-not-planning-keep-him-despite-impressive-form-harry-kane-stand-in/blt337209e207dc442d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/enzo-fernandez-man-city-chelsea-transfer-news/blt5b61be6098fe125d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arsenal-transfer-news-arda-guler-real-madrid-interest/blte8771561a0902d7d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/bruno-fernandes-man-utd-future-decision-transfer-news/bltd6f93bfa3202b053
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-transfer-news-marcus-rashford-man-utd-return-loan-decision/bltdd43cc916f8f7719
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-leny-yoro-ayden-heaven-partnership-micky-van-de-ven-transfer-target/bltca476204fed7550b
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-chelsea-lead-chase-james-trafford-tranfer-man-city-goalkeeper-gianluigi-donnarumma/blt0beff432ffe610b9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-plotting-transfer-swoop-for-real-madrid-star-to-address-priority-position/bltf8bc1678cee98caa
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/marcus-rashford-and-frenkie-de-jong-among-five-barcelona-stars-set-to-be-moved-on-in-summer-transfer-window/blt6b394fcec816c145
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-news-jamie-carragher-todd-boehly-blueco-liam-rosenior-mismanagement/blt06fca2d6a198e2c0
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lisandro-martinez-man-utd-hair-pull-dominic-calvert-lewin-appeal-verdict/bltfcd24dad66a00a9d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-new-stadium-sebastian-coe-regeneration-update/blt9f78af809d750146
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-manager-news-jose-mourinho-stamford-bridge-return-liam-rosenior/blt0993c76d41c770e7
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arne-slot-alexander-isak-best-level-liverpool-mohamed-salah/bltc1a4ef4d52c59649
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-injury-news-hugo-ekitike-arne-slot-achilles-surgery-update/blt1550c033586f6484
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jorge-mendes-advice-lamine-yamal-cristiano-ronaldo-lionel-messi/blt4e315669081b9cd5
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/real-madrid-manager-news-florentino-perez-alvaro-arbeloa-mourinho-klopp/blt3307493d0d2d32d8
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-james-trafford-gianluigi-donnarumma-learning-experience-transfer/blt714a350be35a2ef9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/england-world-cup-squad-morgan-gibbs-white-nottingham-forest-thomas-tuchel/bltaa98a21b1a751c81
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-william-gallas-cesc-fabregas-diego-simeone-liam-rosenior-sacking/blt060844cdf94b51b6
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/rodri-man-city-injury-fixture-schedule-warning-premier-league/blt9995c92e78c121fe
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lamine-yamal-barcelona-injury-blame-mcdonalds-private-jet-row/blt596df74b499bd99c
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/cristiano-ronaldo-portugal-2026-world-cup-fernando-hierro-comments/blt5e02dd668a823165
+✅ Updated
+
+✅ DONE
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/video_scraper.py", line 654, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+----- RUN END Fri Apr 24 06:03:43 PM PKT 2026 -----
+[?2004h)0[1;24r[m(B[4l[?7h[?25l[H[J[22;34H[0;7m(B[ Reading... ][m(B[22;32H[0;7m(B[ Read 24 lines ][m(B[?25h[24;1H[?2004lStandard input is not a terminal
+crontab: "/usr/bin/sensible-editor" exited with status 1
+----- RUN START Fri Apr 24 06:04:54 PM PKT 2026 -----
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/news_url_collector.py", line 1, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+🔎 Found 29 URLs
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-robert-lewandowski-transfer-ac-milan-juventus-usmnt-pulisic-mckennie/bltd36a5f7bd16a6e34
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/manuel-ugarte-transfer-listed-man-utd-sir-jim-ratcliffe-leeds-united-display/blt90edc83e85ac963e
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/juventus-ready-to-table-bernardo-silva-offer-barcelona-also-eye-free-transfer-man-city-icon/blt9bd75ce6787a9672
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-in-pole-position-to-win-elliot-anderson-transfer-race-ahead-of-man-utd/blt82ac95c296f42500
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jadon-sancho-open-to-third-borussia-dortmund-spell-niko-kovac-green-lights-free-transfer-swoop-for-man-utd-outcast/blt39c9da8c6fe1be70
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/sergio-aguero-reveals-when-lionel-messi-will-make-decision-inter-miami-future-hopes-neymar-joins-argentine-mls/blt7dea4124bf2e83ed
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/nicolas-jackson-set-return-to-chelsea-bayern-munich-not-planning-keep-him-despite-impressive-form-harry-kane-stand-in/blt337209e207dc442d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/enzo-fernandez-man-city-chelsea-transfer-news/blt5b61be6098fe125d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arsenal-transfer-news-arda-guler-real-madrid-interest/blte8771561a0902d7d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/bruno-fernandes-man-utd-future-decision-transfer-news/bltd6f93bfa3202b053
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-transfer-news-marcus-rashford-man-utd-return-loan-decision/bltdd43cc916f8f7719
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-leny-yoro-ayden-heaven-partnership-micky-van-de-ven-transfer-target/bltca476204fed7550b
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-chelsea-lead-chase-james-trafford-tranfer-man-city-goalkeeper-gianluigi-donnarumma/blt0beff432ffe610b9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-plotting-transfer-swoop-for-real-madrid-star-to-address-priority-position/bltf8bc1678cee98caa
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/marcus-rashford-and-frenkie-de-jong-among-five-barcelona-stars-set-to-be-moved-on-in-summer-transfer-window/blt6b394fcec816c145
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-news-jamie-carragher-todd-boehly-blueco-liam-rosenior-mismanagement/blt06fca2d6a198e2c0
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lisandro-martinez-man-utd-hair-pull-dominic-calvert-lewin-appeal-verdict/bltfcd24dad66a00a9d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-new-stadium-sebastian-coe-regeneration-update/blt9f78af809d750146
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-manager-news-jose-mourinho-stamford-bridge-return-liam-rosenior/blt0993c76d41c770e7
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arne-slot-alexander-isak-best-level-liverpool-mohamed-salah/bltc1a4ef4d52c59649
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-injury-news-hugo-ekitike-arne-slot-achilles-surgery-update/blt1550c033586f6484
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jorge-mendes-advice-lamine-yamal-cristiano-ronaldo-lionel-messi/blt4e315669081b9cd5
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/real-madrid-manager-news-florentino-perez-alvaro-arbeloa-mourinho-klopp/blt3307493d0d2d32d8
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-james-trafford-gianluigi-donnarumma-learning-experience-transfer/blt714a350be35a2ef9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/england-world-cup-squad-morgan-gibbs-white-nottingham-forest-thomas-tuchel/bltaa98a21b1a751c81
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-william-gallas-cesc-fabregas-diego-simeone-liam-rosenior-sacking/blt060844cdf94b51b6
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/rodri-man-city-injury-fixture-schedule-warning-premier-league/blt9995c92e78c121fe
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lamine-yamal-barcelona-injury-blame-mcdonalds-private-jet-row/blt596df74b499bd99c
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/cristiano-ronaldo-portugal-2026-world-cup-fernando-hierro-comments/blt5e02dd668a823165
+✅ Updated
+
+✅ DONE
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/video_scraper.py", line 654, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+----- RUN END Fri Apr 24 06:05:27 PM PKT 2026 -----
+----- RUN START Fri Apr 24 06:06:01 PM PKT 2026 -----
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/news_url_collector.py", line 1, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+🔎 Found 29 URLs
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-robert-lewandowski-transfer-ac-milan-juventus-usmnt-pulisic-mckennie/bltd36a5f7bd16a6e34
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/manuel-ugarte-transfer-listed-man-utd-sir-jim-ratcliffe-leeds-united-display/blt90edc83e85ac963e
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/juventus-ready-to-table-bernardo-silva-offer-barcelona-also-eye-free-transfer-man-city-icon/blt9bd75ce6787a9672
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-in-pole-position-to-win-elliot-anderson-transfer-race-ahead-of-man-utd/blt82ac95c296f42500
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jadon-sancho-open-to-third-borussia-dortmund-spell-niko-kovac-green-lights-free-transfer-swoop-for-man-utd-outcast/blt39c9da8c6fe1be70
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/sergio-aguero-reveals-when-lionel-messi-will-make-decision-inter-miami-future-hopes-neymar-joins-argentine-mls/blt7dea4124bf2e83ed
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/nicolas-jackson-set-return-to-chelsea-bayern-munich-not-planning-keep-him-despite-impressive-form-harry-kane-stand-in/blt337209e207dc442d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/enzo-fernandez-man-city-chelsea-transfer-news/blt5b61be6098fe125d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arsenal-transfer-news-arda-guler-real-madrid-interest/blte8771561a0902d7d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/bruno-fernandes-man-utd-future-decision-transfer-news/bltd6f93bfa3202b053
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-transfer-news-marcus-rashford-man-utd-return-loan-decision/bltdd43cc916f8f7719
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-leny-yoro-ayden-heaven-partnership-micky-van-de-ven-transfer-target/bltca476204fed7550b
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-chelsea-lead-chase-james-trafford-tranfer-man-city-goalkeeper-gianluigi-donnarumma/blt0beff432ffe610b9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-plotting-transfer-swoop-for-real-madrid-star-to-address-priority-position/bltf8bc1678cee98caa
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/marcus-rashford-and-frenkie-de-jong-among-five-barcelona-stars-set-to-be-moved-on-in-summer-transfer-window/blt6b394fcec816c145
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-news-jamie-carragher-todd-boehly-blueco-liam-rosenior-mismanagement/blt06fca2d6a198e2c0
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lisandro-martinez-man-utd-hair-pull-dominic-calvert-lewin-appeal-verdict/bltfcd24dad66a00a9d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-new-stadium-sebastian-coe-regeneration-update/blt9f78af809d750146
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-manager-news-jose-mourinho-stamford-bridge-return-liam-rosenior/blt0993c76d41c770e7
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arne-slot-alexander-isak-best-level-liverpool-mohamed-salah/bltc1a4ef4d52c59649
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-injury-news-hugo-ekitike-arne-slot-achilles-surgery-update/blt1550c033586f6484
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jorge-mendes-advice-lamine-yamal-cristiano-ronaldo-lionel-messi/blt4e315669081b9cd5
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/real-madrid-manager-news-florentino-perez-alvaro-arbeloa-mourinho-klopp/blt3307493d0d2d32d8
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-james-trafford-gianluigi-donnarumma-learning-experience-transfer/blt714a350be35a2ef9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/england-world-cup-squad-morgan-gibbs-white-nottingham-forest-thomas-tuchel/bltaa98a21b1a751c81
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-william-gallas-cesc-fabregas-diego-simeone-liam-rosenior-sacking/blt060844cdf94b51b6
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/rodri-man-city-injury-fixture-schedule-warning-premier-league/blt9995c92e78c121fe
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lamine-yamal-barcelona-injury-blame-mcdonalds-private-jet-row/blt596df74b499bd99c
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/cristiano-ronaldo-portugal-2026-world-cup-fernando-hierro-comments/blt5e02dd668a823165
+✅ Updated
+
+✅ DONE
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/video_scraper.py", line 654, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+----- RUN END Fri Apr 24 06:06:33 PM PKT 2026 -----
+[?2004h)0[1;24r[m(B[4l[?7h[?25l[H[J[22;34H[0;7m(B[ Reading... ][m(B[22;32H[0;7m(B[ Read 24 lines ][m(B[?25h[24;1H[?2004lStandard input is not a terminal
+crontab: "/usr/bin/sensible-editor" exited with status 1
+----- RUN START Fri Apr 24 06:09:01 PM PKT 2026 -----
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/news_url_collector.py", line 1, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+🔎 Found 29 URLs
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-robert-lewandowski-transfer-ac-milan-juventus-usmnt-pulisic-mckennie/bltd36a5f7bd16a6e34
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/manuel-ugarte-transfer-listed-man-utd-sir-jim-ratcliffe-leeds-united-display/blt90edc83e85ac963e
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/juventus-ready-to-table-bernardo-silva-offer-barcelona-also-eye-free-transfer-man-city-icon/blt9bd75ce6787a9672
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-in-pole-position-to-win-elliot-anderson-transfer-race-ahead-of-man-utd/blt82ac95c296f42500
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jadon-sancho-open-to-third-borussia-dortmund-spell-niko-kovac-green-lights-free-transfer-swoop-for-man-utd-outcast/blt39c9da8c6fe1be70
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/sergio-aguero-reveals-when-lionel-messi-will-make-decision-inter-miami-future-hopes-neymar-joins-argentine-mls/blt7dea4124bf2e83ed
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/nicolas-jackson-set-return-to-chelsea-bayern-munich-not-planning-keep-him-despite-impressive-form-harry-kane-stand-in/blt337209e207dc442d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/enzo-fernandez-man-city-chelsea-transfer-news/blt5b61be6098fe125d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arsenal-transfer-news-arda-guler-real-madrid-interest/blte8771561a0902d7d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/bruno-fernandes-man-utd-future-decision-transfer-news/bltd6f93bfa3202b053
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-transfer-news-marcus-rashford-man-utd-return-loan-decision/bltdd43cc916f8f7719
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-leny-yoro-ayden-heaven-partnership-micky-van-de-ven-transfer-target/bltca476204fed7550b
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-chelsea-lead-chase-james-trafford-tranfer-man-city-goalkeeper-gianluigi-donnarumma/blt0beff432ffe610b9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-plotting-transfer-swoop-for-real-madrid-star-to-address-priority-position/bltf8bc1678cee98caa
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/marcus-rashford-and-frenkie-de-jong-among-five-barcelona-stars-set-to-be-moved-on-in-summer-transfer-window/blt6b394fcec816c145
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-news-jamie-carragher-todd-boehly-blueco-liam-rosenior-mismanagement/blt06fca2d6a198e2c0
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lisandro-martinez-man-utd-hair-pull-dominic-calvert-lewin-appeal-verdict/bltfcd24dad66a00a9d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-new-stadium-sebastian-coe-regeneration-update/blt9f78af809d750146
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-manager-news-jose-mourinho-stamford-bridge-return-liam-rosenior/blt0993c76d41c770e7
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arne-slot-alexander-isak-best-level-liverpool-mohamed-salah/bltc1a4ef4d52c59649
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-injury-news-hugo-ekitike-arne-slot-achilles-surgery-update/blt1550c033586f6484
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jorge-mendes-advice-lamine-yamal-cristiano-ronaldo-lionel-messi/blt4e315669081b9cd5
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/real-madrid-manager-news-florentino-perez-alvaro-arbeloa-mourinho-klopp/blt3307493d0d2d32d8
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-james-trafford-gianluigi-donnarumma-learning-experience-transfer/blt714a350be35a2ef9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/england-world-cup-squad-morgan-gibbs-white-nottingham-forest-thomas-tuchel/bltaa98a21b1a751c81
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-william-gallas-cesc-fabregas-diego-simeone-liam-rosenior-sacking/blt060844cdf94b51b6
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/rodri-man-city-injury-fixture-schedule-warning-premier-league/blt9995c92e78c121fe
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lamine-yamal-barcelona-injury-blame-mcdonalds-private-jet-row/blt596df74b499bd99c
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/cristiano-ronaldo-portugal-2026-world-cup-fernando-hierro-comments/blt5e02dd668a823165
+✅ Updated
+
+✅ DONE
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/video_scraper.py", line 654, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+----- RUN END Fri Apr 24 06:09:38 PM PKT 2026 -----
+[?2004h)0[1;24r[m(B[4l[?7h[?25l[H[J[22;34H[0;7m(B[ Reading... ][m(B[22;32H[0;7m(B[ Read 24 lines ][m(B[?25h[24;1H[?2004lStandard input is not a terminal
+crontab: "/usr/bin/sensible-editor" exited with status 1
+----- RUN START Fri Apr 24 06:12:01 PM PKT 2026 -----
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/news_url_collector.py", line 1, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+🔎 Found 29 URLs
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-robert-lewandowski-transfer-ac-milan-juventus-usmnt-pulisic-mckennie/bltd36a5f7bd16a6e34
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/manuel-ugarte-transfer-listed-man-utd-sir-jim-ratcliffe-leeds-united-display/blt90edc83e85ac963e
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/juventus-ready-to-table-bernardo-silva-offer-barcelona-also-eye-free-transfer-man-city-icon/blt9bd75ce6787a9672
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-in-pole-position-to-win-elliot-anderson-transfer-race-ahead-of-man-utd/blt82ac95c296f42500
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jadon-sancho-open-to-third-borussia-dortmund-spell-niko-kovac-green-lights-free-transfer-swoop-for-man-utd-outcast/blt39c9da8c6fe1be70
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/sergio-aguero-reveals-when-lionel-messi-will-make-decision-inter-miami-future-hopes-neymar-joins-argentine-mls/blt7dea4124bf2e83ed
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/nicolas-jackson-set-return-to-chelsea-bayern-munich-not-planning-keep-him-despite-impressive-form-harry-kane-stand-in/blt337209e207dc442d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/enzo-fernandez-man-city-chelsea-transfer-news/blt5b61be6098fe125d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arsenal-transfer-news-arda-guler-real-madrid-interest/blte8771561a0902d7d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/bruno-fernandes-man-utd-future-decision-transfer-news/bltd6f93bfa3202b053
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-transfer-news-marcus-rashford-man-utd-return-loan-decision/bltdd43cc916f8f7719
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-leny-yoro-ayden-heaven-partnership-micky-van-de-ven-transfer-target/bltca476204fed7550b
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-chelsea-lead-chase-james-trafford-tranfer-man-city-goalkeeper-gianluigi-donnarumma/blt0beff432ffe610b9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-plotting-transfer-swoop-for-real-madrid-star-to-address-priority-position/bltf8bc1678cee98caa
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/marcus-rashford-and-frenkie-de-jong-among-five-barcelona-stars-set-to-be-moved-on-in-summer-transfer-window/blt6b394fcec816c145
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-news-jamie-carragher-todd-boehly-blueco-liam-rosenior-mismanagement/blt06fca2d6a198e2c0
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lisandro-martinez-man-utd-hair-pull-dominic-calvert-lewin-appeal-verdict/bltfcd24dad66a00a9d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-new-stadium-sebastian-coe-regeneration-update/blt9f78af809d750146
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-manager-news-jose-mourinho-stamford-bridge-return-liam-rosenior/blt0993c76d41c770e7
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arne-slot-alexander-isak-best-level-liverpool-mohamed-salah/bltc1a4ef4d52c59649
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-injury-news-hugo-ekitike-arne-slot-achilles-surgery-update/blt1550c033586f6484
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jorge-mendes-advice-lamine-yamal-cristiano-ronaldo-lionel-messi/blt4e315669081b9cd5
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/real-madrid-manager-news-florentino-perez-alvaro-arbeloa-mourinho-klopp/blt3307493d0d2d32d8
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-james-trafford-gianluigi-donnarumma-learning-experience-transfer/blt714a350be35a2ef9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/england-world-cup-squad-morgan-gibbs-white-nottingham-forest-thomas-tuchel/bltaa98a21b1a751c81
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-william-gallas-cesc-fabregas-diego-simeone-liam-rosenior-sacking/blt060844cdf94b51b6
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/rodri-man-city-injury-fixture-schedule-warning-premier-league/blt9995c92e78c121fe
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lamine-yamal-barcelona-injury-blame-mcdonalds-private-jet-row/blt596df74b499bd99c
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/cristiano-ronaldo-portugal-2026-world-cup-fernando-hierro-comments/blt5e02dd668a823165
+✅ Updated
+
+✅ DONE
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/video_scraper.py", line 654, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+----- RUN END Fri Apr 24 06:12:33 PM PKT 2026 -----
+[?2004h)0[1;24r[m(B[4l[?7h[?25l[H[J[22;34H[0;7m(B[ Reading... ][m(B[22;32H[0;7m(B[ Read 24 lines ][m(B[?25h[24;1H[?2004lStandard input is not a terminal
+crontab: "/usr/bin/sensible-editor" exited with status 1
+----- RUN START Mon Apr 27 09:57:01 AM PKT 2026 -----
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/news_url_collector.py", line 1, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+🔎 Found 29 URLs
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-robert-lewandowski-transfer-ac-milan-juventus-usmnt-pulisic-mckennie/bltd36a5f7bd16a6e34
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/manuel-ugarte-transfer-listed-man-utd-sir-jim-ratcliffe-leeds-united-display/blt90edc83e85ac963e
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/juventus-ready-to-table-bernardo-silva-offer-barcelona-also-eye-free-transfer-man-city-icon/blt9bd75ce6787a9672
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-in-pole-position-to-win-elliot-anderson-transfer-race-ahead-of-man-utd/blt82ac95c296f42500
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jadon-sancho-open-to-third-borussia-dortmund-spell-niko-kovac-green-lights-free-transfer-swoop-for-man-utd-outcast/blt39c9da8c6fe1be70
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/sergio-aguero-reveals-when-lionel-messi-will-make-decision-inter-miami-future-hopes-neymar-joins-argentine-mls/blt7dea4124bf2e83ed
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/nicolas-jackson-set-return-to-chelsea-bayern-munich-not-planning-keep-him-despite-impressive-form-harry-kane-stand-in/blt337209e207dc442d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/enzo-fernandez-man-city-chelsea-transfer-news/blt5b61be6098fe125d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arsenal-transfer-news-arda-guler-real-madrid-interest/blte8771561a0902d7d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/bruno-fernandes-man-utd-future-decision-transfer-news/bltd6f93bfa3202b053
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-transfer-news-marcus-rashford-man-utd-return-loan-decision/bltdd43cc916f8f7719
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-leny-yoro-ayden-heaven-partnership-micky-van-de-ven-transfer-target/bltca476204fed7550b
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-chelsea-lead-chase-james-trafford-tranfer-man-city-goalkeeper-gianluigi-donnarumma/blt0beff432ffe610b9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-plotting-transfer-swoop-for-real-madrid-star-to-address-priority-position/bltf8bc1678cee98caa
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/marcus-rashford-and-frenkie-de-jong-among-five-barcelona-stars-set-to-be-moved-on-in-summer-transfer-window/blt6b394fcec816c145
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-news-jamie-carragher-todd-boehly-blueco-liam-rosenior-mismanagement/blt06fca2d6a198e2c0
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lisandro-martinez-man-utd-hair-pull-dominic-calvert-lewin-appeal-verdict/bltfcd24dad66a00a9d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-new-stadium-sebastian-coe-regeneration-update/blt9f78af809d750146
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-manager-news-jose-mourinho-stamford-bridge-return-liam-rosenior/blt0993c76d41c770e7
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arne-slot-alexander-isak-best-level-liverpool-mohamed-salah/bltc1a4ef4d52c59649
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-injury-news-hugo-ekitike-arne-slot-achilles-surgery-update/blt1550c033586f6484
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jorge-mendes-advice-lamine-yamal-cristiano-ronaldo-lionel-messi/blt4e315669081b9cd5
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/real-madrid-manager-news-florentino-perez-alvaro-arbeloa-mourinho-klopp/blt3307493d0d2d32d8
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-james-trafford-gianluigi-donnarumma-learning-experience-transfer/blt714a350be35a2ef9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/england-world-cup-squad-morgan-gibbs-white-nottingham-forest-thomas-tuchel/bltaa98a21b1a751c81
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-william-gallas-cesc-fabregas-diego-simeone-liam-rosenior-sacking/blt060844cdf94b51b6
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/rodri-man-city-injury-fixture-schedule-warning-premier-league/blt9995c92e78c121fe
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lamine-yamal-barcelona-injury-blame-mcdonalds-private-jet-row/blt596df74b499bd99c
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/cristiano-ronaldo-portugal-2026-world-cup-fernando-hierro-comments/blt5e02dd668a823165
+✅ Updated
+
+✅ DONE
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/video_scraper.py", line 654, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+----- RUN END Mon Apr 27 09:57:53 AM PKT 2026 -----
+[?2004h)0[1;24r[m(B[4l[?7h[?25l[H[J[22;34H[0;7m(B[ Reading... ][m(B[22;32H[0;7m(B[ Read 24 lines ][m(B[?25h[24;1H[?2004lStandard input is not a terminal
+crontab: "/usr/bin/sensible-editor" exited with status 1
+----- RUN START Mon Apr 27 10:00:01 AM PKT 2026 -----
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/news_url_collector.py", line 1, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+🔎 Found 29 URLs
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-robert-lewandowski-transfer-ac-milan-juventus-usmnt-pulisic-mckennie/bltd36a5f7bd16a6e34
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/manuel-ugarte-transfer-listed-man-utd-sir-jim-ratcliffe-leeds-united-display/blt90edc83e85ac963e
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/juventus-ready-to-table-bernardo-silva-offer-barcelona-also-eye-free-transfer-man-city-icon/blt9bd75ce6787a9672
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-in-pole-position-to-win-elliot-anderson-transfer-race-ahead-of-man-utd/blt82ac95c296f42500
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jadon-sancho-open-to-third-borussia-dortmund-spell-niko-kovac-green-lights-free-transfer-swoop-for-man-utd-outcast/blt39c9da8c6fe1be70
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/sergio-aguero-reveals-when-lionel-messi-will-make-decision-inter-miami-future-hopes-neymar-joins-argentine-mls/blt7dea4124bf2e83ed
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/nicolas-jackson-set-return-to-chelsea-bayern-munich-not-planning-keep-him-despite-impressive-form-harry-kane-stand-in/blt337209e207dc442d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/enzo-fernandez-man-city-chelsea-transfer-news/blt5b61be6098fe125d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arsenal-transfer-news-arda-guler-real-madrid-interest/blte8771561a0902d7d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/bruno-fernandes-man-utd-future-decision-transfer-news/bltd6f93bfa3202b053
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-transfer-news-marcus-rashford-man-utd-return-loan-decision/bltdd43cc916f8f7719
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-leny-yoro-ayden-heaven-partnership-micky-van-de-ven-transfer-target/bltca476204fed7550b
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-chelsea-lead-chase-james-trafford-tranfer-man-city-goalkeeper-gianluigi-donnarumma/blt0beff432ffe610b9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-plotting-transfer-swoop-for-real-madrid-star-to-address-priority-position/bltf8bc1678cee98caa
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/marcus-rashford-and-frenkie-de-jong-among-five-barcelona-stars-set-to-be-moved-on-in-summer-transfer-window/blt6b394fcec816c145
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-news-jamie-carragher-todd-boehly-blueco-liam-rosenior-mismanagement/blt06fca2d6a198e2c0
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lisandro-martinez-man-utd-hair-pull-dominic-calvert-lewin-appeal-verdict/bltfcd24dad66a00a9d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-new-stadium-sebastian-coe-regeneration-update/blt9f78af809d750146
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-manager-news-jose-mourinho-stamford-bridge-return-liam-rosenior/blt0993c76d41c770e7
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arne-slot-alexander-isak-best-level-liverpool-mohamed-salah/bltc1a4ef4d52c59649
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-injury-news-hugo-ekitike-arne-slot-achilles-surgery-update/blt1550c033586f6484
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jorge-mendes-advice-lamine-yamal-cristiano-ronaldo-lionel-messi/blt4e315669081b9cd5
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/real-madrid-manager-news-florentino-perez-alvaro-arbeloa-mourinho-klopp/blt3307493d0d2d32d8
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-james-trafford-gianluigi-donnarumma-learning-experience-transfer/blt714a350be35a2ef9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/england-world-cup-squad-morgan-gibbs-white-nottingham-forest-thomas-tuchel/bltaa98a21b1a751c81
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-william-gallas-cesc-fabregas-diego-simeone-liam-rosenior-sacking/blt060844cdf94b51b6
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/rodri-man-city-injury-fixture-schedule-warning-premier-league/blt9995c92e78c121fe
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lamine-yamal-barcelona-injury-blame-mcdonalds-private-jet-row/blt596df74b499bd99c
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/cristiano-ronaldo-portugal-2026-world-cup-fernando-hierro-comments/blt5e02dd668a823165
+✅ Updated
+
+✅ DONE
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/video_scraper.py", line 654, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+----- RUN END Mon Apr 27 10:00:41 AM PKT 2026 -----
+[?2004h)0[1;24r[m(B[4l[?7h[?25l[H[J[22;34H[0;7m(B[ Reading... ][m(B[22;32H[0;7m(B[ Read 24 lines ][m(B[?25h[24;1H[?2004lStandard input is not a terminal
+crontab: "/usr/bin/sensible-editor" exited with status 1
+----- RUN START Mon Apr 27 10:03:01 AM PKT 2026 -----
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/news_url_collector.py", line 1, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+🔎 Found 29 URLs
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-robert-lewandowski-transfer-ac-milan-juventus-usmnt-pulisic-mckennie/bltd36a5f7bd16a6e34
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/manuel-ugarte-transfer-listed-man-utd-sir-jim-ratcliffe-leeds-united-display/blt90edc83e85ac963e
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/juventus-ready-to-table-bernardo-silva-offer-barcelona-also-eye-free-transfer-man-city-icon/blt9bd75ce6787a9672
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-in-pole-position-to-win-elliot-anderson-transfer-race-ahead-of-man-utd/blt82ac95c296f42500
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jadon-sancho-open-to-third-borussia-dortmund-spell-niko-kovac-green-lights-free-transfer-swoop-for-man-utd-outcast/blt39c9da8c6fe1be70
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/sergio-aguero-reveals-when-lionel-messi-will-make-decision-inter-miami-future-hopes-neymar-joins-argentine-mls/blt7dea4124bf2e83ed
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/nicolas-jackson-set-return-to-chelsea-bayern-munich-not-planning-keep-him-despite-impressive-form-harry-kane-stand-in/blt337209e207dc442d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/enzo-fernandez-man-city-chelsea-transfer-news/blt5b61be6098fe125d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arsenal-transfer-news-arda-guler-real-madrid-interest/blte8771561a0902d7d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/bruno-fernandes-man-utd-future-decision-transfer-news/bltd6f93bfa3202b053
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-transfer-news-marcus-rashford-man-utd-return-loan-decision/bltdd43cc916f8f7719
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-leny-yoro-ayden-heaven-partnership-micky-van-de-ven-transfer-target/bltca476204fed7550b
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-chelsea-lead-chase-james-trafford-tranfer-man-city-goalkeeper-gianluigi-donnarumma/blt0beff432ffe610b9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-plotting-transfer-swoop-for-real-madrid-star-to-address-priority-position/bltf8bc1678cee98caa
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/marcus-rashford-and-frenkie-de-jong-among-five-barcelona-stars-set-to-be-moved-on-in-summer-transfer-window/blt6b394fcec816c145
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-news-jamie-carragher-todd-boehly-blueco-liam-rosenior-mismanagement/blt06fca2d6a198e2c0
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lisandro-martinez-man-utd-hair-pull-dominic-calvert-lewin-appeal-verdict/bltfcd24dad66a00a9d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-new-stadium-sebastian-coe-regeneration-update/blt9f78af809d750146
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-manager-news-jose-mourinho-stamford-bridge-return-liam-rosenior/blt0993c76d41c770e7
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arne-slot-alexander-isak-best-level-liverpool-mohamed-salah/bltc1a4ef4d52c59649
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-injury-news-hugo-ekitike-arne-slot-achilles-surgery-update/blt1550c033586f6484
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jorge-mendes-advice-lamine-yamal-cristiano-ronaldo-lionel-messi/blt4e315669081b9cd5
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/real-madrid-manager-news-florentino-perez-alvaro-arbeloa-mourinho-klopp/blt3307493d0d2d32d8
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-james-trafford-gianluigi-donnarumma-learning-experience-transfer/blt714a350be35a2ef9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/england-world-cup-squad-morgan-gibbs-white-nottingham-forest-thomas-tuchel/bltaa98a21b1a751c81
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-william-gallas-cesc-fabregas-diego-simeone-liam-rosenior-sacking/blt060844cdf94b51b6
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/rodri-man-city-injury-fixture-schedule-warning-premier-league/blt9995c92e78c121fe
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lamine-yamal-barcelona-injury-blame-mcdonalds-private-jet-row/blt596df74b499bd99c
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/cristiano-ronaldo-portugal-2026-world-cup-fernando-hierro-comments/blt5e02dd668a823165
+✅ Updated
+
+✅ DONE
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/video_scraper.py", line 654, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+----- RUN END Mon Apr 27 10:03:38 AM PKT 2026 -----
+[?2004h)0[1;24r[m(B[4l[?7h[?25l[H[J[22;34H[0;7m(B[ Reading... ][m(B[22;32H[0;7m(B[ Read 24 lines ][m(B[?25h[24;1H[?2004lStandard input is not a terminal
+crontab: "/usr/bin/sensible-editor" exited with status 1
+----- RUN START Mon Apr 27 10:06:01 AM PKT 2026 -----
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/news_url_collector.py", line 1, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+🔎 Found 29 URLs
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-robert-lewandowski-transfer-ac-milan-juventus-usmnt-pulisic-mckennie/bltd36a5f7bd16a6e34
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/manuel-ugarte-transfer-listed-man-utd-sir-jim-ratcliffe-leeds-united-display/blt90edc83e85ac963e
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/juventus-ready-to-table-bernardo-silva-offer-barcelona-also-eye-free-transfer-man-city-icon/blt9bd75ce6787a9672
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-in-pole-position-to-win-elliot-anderson-transfer-race-ahead-of-man-utd/blt82ac95c296f42500
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jadon-sancho-open-to-third-borussia-dortmund-spell-niko-kovac-green-lights-free-transfer-swoop-for-man-utd-outcast/blt39c9da8c6fe1be70
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/sergio-aguero-reveals-when-lionel-messi-will-make-decision-inter-miami-future-hopes-neymar-joins-argentine-mls/blt7dea4124bf2e83ed
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/nicolas-jackson-set-return-to-chelsea-bayern-munich-not-planning-keep-him-despite-impressive-form-harry-kane-stand-in/blt337209e207dc442d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/enzo-fernandez-man-city-chelsea-transfer-news/blt5b61be6098fe125d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arsenal-transfer-news-arda-guler-real-madrid-interest/blte8771561a0902d7d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/bruno-fernandes-man-utd-future-decision-transfer-news/bltd6f93bfa3202b053
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-transfer-news-marcus-rashford-man-utd-return-loan-decision/bltdd43cc916f8f7719
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-leny-yoro-ayden-heaven-partnership-micky-van-de-ven-transfer-target/bltca476204fed7550b
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-chelsea-lead-chase-james-trafford-tranfer-man-city-goalkeeper-gianluigi-donnarumma/blt0beff432ffe610b9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-plotting-transfer-swoop-for-real-madrid-star-to-address-priority-position/bltf8bc1678cee98caa
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/marcus-rashford-and-frenkie-de-jong-among-five-barcelona-stars-set-to-be-moved-on-in-summer-transfer-window/blt6b394fcec816c145
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-news-jamie-carragher-todd-boehly-blueco-liam-rosenior-mismanagement/blt06fca2d6a198e2c0
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lisandro-martinez-man-utd-hair-pull-dominic-calvert-lewin-appeal-verdict/bltfcd24dad66a00a9d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-new-stadium-sebastian-coe-regeneration-update/blt9f78af809d750146
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-manager-news-jose-mourinho-stamford-bridge-return-liam-rosenior/blt0993c76d41c770e7
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arne-slot-alexander-isak-best-level-liverpool-mohamed-salah/bltc1a4ef4d52c59649
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-injury-news-hugo-ekitike-arne-slot-achilles-surgery-update/blt1550c033586f6484
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jorge-mendes-advice-lamine-yamal-cristiano-ronaldo-lionel-messi/blt4e315669081b9cd5
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/real-madrid-manager-news-florentino-perez-alvaro-arbeloa-mourinho-klopp/blt3307493d0d2d32d8
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-james-trafford-gianluigi-donnarumma-learning-experience-transfer/blt714a350be35a2ef9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/england-world-cup-squad-morgan-gibbs-white-nottingham-forest-thomas-tuchel/bltaa98a21b1a751c81
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-william-gallas-cesc-fabregas-diego-simeone-liam-rosenior-sacking/blt060844cdf94b51b6
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/rodri-man-city-injury-fixture-schedule-warning-premier-league/blt9995c92e78c121fe
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lamine-yamal-barcelona-injury-blame-mcdonalds-private-jet-row/blt596df74b499bd99c
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/cristiano-ronaldo-portugal-2026-world-cup-fernando-hierro-comments/blt5e02dd668a823165
+✅ Updated
+
+✅ DONE
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/video_scraper.py", line 654, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+----- RUN END Mon Apr 27 10:06:40 AM PKT 2026 -----
+[?2004h)0[1;24r[m(B[4l[?7h[?25l[H[J[22;34H[0;7m(B[ Reading... ][m(B[22;32H[0;7m(B[ Read 24 lines ][m(B[?25h[24;1H[?2004lStandard input is not a terminal
+crontab: "/usr/bin/sensible-editor" exited with status 1
+----- RUN START Mon Apr 27 10:09:01 AM PKT 2026 -----
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/news_url_collector.py", line 1, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+🔎 Found 29 URLs
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-robert-lewandowski-transfer-ac-milan-juventus-usmnt-pulisic-mckennie/bltd36a5f7bd16a6e34
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/manuel-ugarte-transfer-listed-man-utd-sir-jim-ratcliffe-leeds-united-display/blt90edc83e85ac963e
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/juventus-ready-to-table-bernardo-silva-offer-barcelona-also-eye-free-transfer-man-city-icon/blt9bd75ce6787a9672
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-in-pole-position-to-win-elliot-anderson-transfer-race-ahead-of-man-utd/blt82ac95c296f42500
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jadon-sancho-open-to-third-borussia-dortmund-spell-niko-kovac-green-lights-free-transfer-swoop-for-man-utd-outcast/blt39c9da8c6fe1be70
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/sergio-aguero-reveals-when-lionel-messi-will-make-decision-inter-miami-future-hopes-neymar-joins-argentine-mls/blt7dea4124bf2e83ed
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/nicolas-jackson-set-return-to-chelsea-bayern-munich-not-planning-keep-him-despite-impressive-form-harry-kane-stand-in/blt337209e207dc442d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/enzo-fernandez-man-city-chelsea-transfer-news/blt5b61be6098fe125d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arsenal-transfer-news-arda-guler-real-madrid-interest/blte8771561a0902d7d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/bruno-fernandes-man-utd-future-decision-transfer-news/bltd6f93bfa3202b053
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-transfer-news-marcus-rashford-man-utd-return-loan-decision/bltdd43cc916f8f7719
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-leny-yoro-ayden-heaven-partnership-micky-van-de-ven-transfer-target/bltca476204fed7550b
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-chelsea-lead-chase-james-trafford-tranfer-man-city-goalkeeper-gianluigi-donnarumma/blt0beff432ffe610b9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-plotting-transfer-swoop-for-real-madrid-star-to-address-priority-position/bltf8bc1678cee98caa
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/marcus-rashford-and-frenkie-de-jong-among-five-barcelona-stars-set-to-be-moved-on-in-summer-transfer-window/blt6b394fcec816c145
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-news-jamie-carragher-todd-boehly-blueco-liam-rosenior-mismanagement/blt06fca2d6a198e2c0
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lisandro-martinez-man-utd-hair-pull-dominic-calvert-lewin-appeal-verdict/bltfcd24dad66a00a9d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-new-stadium-sebastian-coe-regeneration-update/blt9f78af809d750146
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-manager-news-jose-mourinho-stamford-bridge-return-liam-rosenior/blt0993c76d41c770e7
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arne-slot-alexander-isak-best-level-liverpool-mohamed-salah/bltc1a4ef4d52c59649
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-injury-news-hugo-ekitike-arne-slot-achilles-surgery-update/blt1550c033586f6484
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jorge-mendes-advice-lamine-yamal-cristiano-ronaldo-lionel-messi/blt4e315669081b9cd5
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/real-madrid-manager-news-florentino-perez-alvaro-arbeloa-mourinho-klopp/blt3307493d0d2d32d8
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-james-trafford-gianluigi-donnarumma-learning-experience-transfer/blt714a350be35a2ef9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/england-world-cup-squad-morgan-gibbs-white-nottingham-forest-thomas-tuchel/bltaa98a21b1a751c81
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-william-gallas-cesc-fabregas-diego-simeone-liam-rosenior-sacking/blt060844cdf94b51b6
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/rodri-man-city-injury-fixture-schedule-warning-premier-league/blt9995c92e78c121fe
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lamine-yamal-barcelona-injury-blame-mcdonalds-private-jet-row/blt596df74b499bd99c
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/cristiano-ronaldo-portugal-2026-world-cup-fernando-hierro-comments/blt5e02dd668a823165
+✅ Updated
+
+✅ DONE
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/video_scraper.py", line 654, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+----- RUN END Mon Apr 27 10:09:36 AM PKT 2026 -----
+[?2004h)0[1;24r[m(B[4l[?7h[?25l[H[J[22;34H[0;7m(B[ Reading... ][m(B[22;32H[0;7m(B[ Read 24 lines ][m(B[?25h[24;1H[?2004lStandard input is not a terminal
+crontab: "/usr/bin/sensible-editor" exited with status 1
+----- RUN START Mon Apr 27 10:12:01 AM PKT 2026 -----
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/news_url_collector.py", line 1, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+🔎 Found 29 URLs
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-robert-lewandowski-transfer-ac-milan-juventus-usmnt-pulisic-mckennie/bltd36a5f7bd16a6e34
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/manuel-ugarte-transfer-listed-man-utd-sir-jim-ratcliffe-leeds-united-display/blt90edc83e85ac963e
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/juventus-ready-to-table-bernardo-silva-offer-barcelona-also-eye-free-transfer-man-city-icon/blt9bd75ce6787a9672
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-in-pole-position-to-win-elliot-anderson-transfer-race-ahead-of-man-utd/blt82ac95c296f42500
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jadon-sancho-open-to-third-borussia-dortmund-spell-niko-kovac-green-lights-free-transfer-swoop-for-man-utd-outcast/blt39c9da8c6fe1be70
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/sergio-aguero-reveals-when-lionel-messi-will-make-decision-inter-miami-future-hopes-neymar-joins-argentine-mls/blt7dea4124bf2e83ed
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/nicolas-jackson-set-return-to-chelsea-bayern-munich-not-planning-keep-him-despite-impressive-form-harry-kane-stand-in/blt337209e207dc442d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/enzo-fernandez-man-city-chelsea-transfer-news/blt5b61be6098fe125d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arsenal-transfer-news-arda-guler-real-madrid-interest/blte8771561a0902d7d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/bruno-fernandes-man-utd-future-decision-transfer-news/bltd6f93bfa3202b053
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-transfer-news-marcus-rashford-man-utd-return-loan-decision/bltdd43cc916f8f7719
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-leny-yoro-ayden-heaven-partnership-micky-van-de-ven-transfer-target/bltca476204fed7550b
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-chelsea-lead-chase-james-trafford-tranfer-man-city-goalkeeper-gianluigi-donnarumma/blt0beff432ffe610b9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-plotting-transfer-swoop-for-real-madrid-star-to-address-priority-position/bltf8bc1678cee98caa
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/marcus-rashford-and-frenkie-de-jong-among-five-barcelona-stars-set-to-be-moved-on-in-summer-transfer-window/blt6b394fcec816c145
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-news-jamie-carragher-todd-boehly-blueco-liam-rosenior-mismanagement/blt06fca2d6a198e2c0
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lisandro-martinez-man-utd-hair-pull-dominic-calvert-lewin-appeal-verdict/bltfcd24dad66a00a9d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-new-stadium-sebastian-coe-regeneration-update/blt9f78af809d750146
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-manager-news-jose-mourinho-stamford-bridge-return-liam-rosenior/blt0993c76d41c770e7
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arne-slot-alexander-isak-best-level-liverpool-mohamed-salah/bltc1a4ef4d52c59649
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-injury-news-hugo-ekitike-arne-slot-achilles-surgery-update/blt1550c033586f6484
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jorge-mendes-advice-lamine-yamal-cristiano-ronaldo-lionel-messi/blt4e315669081b9cd5
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/real-madrid-manager-news-florentino-perez-alvaro-arbeloa-mourinho-klopp/blt3307493d0d2d32d8
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-james-trafford-gianluigi-donnarumma-learning-experience-transfer/blt714a350be35a2ef9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/england-world-cup-squad-morgan-gibbs-white-nottingham-forest-thomas-tuchel/bltaa98a21b1a751c81
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-william-gallas-cesc-fabregas-diego-simeone-liam-rosenior-sacking/blt060844cdf94b51b6
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/rodri-man-city-injury-fixture-schedule-warning-premier-league/blt9995c92e78c121fe
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lamine-yamal-barcelona-injury-blame-mcdonalds-private-jet-row/blt596df74b499bd99c
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/cristiano-ronaldo-portugal-2026-world-cup-fernando-hierro-comments/blt5e02dd668a823165
+✅ Updated
+
+✅ DONE
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/video_scraper.py", line 654, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+----- RUN END Mon Apr 27 10:12:38 AM PKT 2026 -----
+[?2004h)0[1;24r[m(B[4l[?7h[?25l[H[J[22;34H[0;7m(B[ Reading... ][m(B[22;32H[0;7m(B[ Read 24 lines ][m(B[?25h[24;1H[?2004lStandard input is not a terminal
+crontab: "/usr/bin/sensible-editor" exited with status 1
+----- RUN START Mon Apr 27 10:15:01 AM PKT 2026 -----
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/news_url_collector.py", line 1, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+🔎 Found 29 URLs
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-robert-lewandowski-transfer-ac-milan-juventus-usmnt-pulisic-mckennie/bltd36a5f7bd16a6e34
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/manuel-ugarte-transfer-listed-man-utd-sir-jim-ratcliffe-leeds-united-display/blt90edc83e85ac963e
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/juventus-ready-to-table-bernardo-silva-offer-barcelona-also-eye-free-transfer-man-city-icon/blt9bd75ce6787a9672
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-in-pole-position-to-win-elliot-anderson-transfer-race-ahead-of-man-utd/blt82ac95c296f42500
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jadon-sancho-open-to-third-borussia-dortmund-spell-niko-kovac-green-lights-free-transfer-swoop-for-man-utd-outcast/blt39c9da8c6fe1be70
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/sergio-aguero-reveals-when-lionel-messi-will-make-decision-inter-miami-future-hopes-neymar-joins-argentine-mls/blt7dea4124bf2e83ed
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/nicolas-jackson-set-return-to-chelsea-bayern-munich-not-planning-keep-him-despite-impressive-form-harry-kane-stand-in/blt337209e207dc442d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/enzo-fernandez-man-city-chelsea-transfer-news/blt5b61be6098fe125d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arsenal-transfer-news-arda-guler-real-madrid-interest/blte8771561a0902d7d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/bruno-fernandes-man-utd-future-decision-transfer-news/bltd6f93bfa3202b053
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-transfer-news-marcus-rashford-man-utd-return-loan-decision/bltdd43cc916f8f7719
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-leny-yoro-ayden-heaven-partnership-micky-van-de-ven-transfer-target/bltca476204fed7550b
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-chelsea-lead-chase-james-trafford-tranfer-man-city-goalkeeper-gianluigi-donnarumma/blt0beff432ffe610b9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-plotting-transfer-swoop-for-real-madrid-star-to-address-priority-position/bltf8bc1678cee98caa
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/marcus-rashford-and-frenkie-de-jong-among-five-barcelona-stars-set-to-be-moved-on-in-summer-transfer-window/blt6b394fcec816c145
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-news-jamie-carragher-todd-boehly-blueco-liam-rosenior-mismanagement/blt06fca2d6a198e2c0
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lisandro-martinez-man-utd-hair-pull-dominic-calvert-lewin-appeal-verdict/bltfcd24dad66a00a9d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-new-stadium-sebastian-coe-regeneration-update/blt9f78af809d750146
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-manager-news-jose-mourinho-stamford-bridge-return-liam-rosenior/blt0993c76d41c770e7
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arne-slot-alexander-isak-best-level-liverpool-mohamed-salah/bltc1a4ef4d52c59649
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-injury-news-hugo-ekitike-arne-slot-achilles-surgery-update/blt1550c033586f6484
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jorge-mendes-advice-lamine-yamal-cristiano-ronaldo-lionel-messi/blt4e315669081b9cd5
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/real-madrid-manager-news-florentino-perez-alvaro-arbeloa-mourinho-klopp/blt3307493d0d2d32d8
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-james-trafford-gianluigi-donnarumma-learning-experience-transfer/blt714a350be35a2ef9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/england-world-cup-squad-morgan-gibbs-white-nottingham-forest-thomas-tuchel/bltaa98a21b1a751c81
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-william-gallas-cesc-fabregas-diego-simeone-liam-rosenior-sacking/blt060844cdf94b51b6
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/rodri-man-city-injury-fixture-schedule-warning-premier-league/blt9995c92e78c121fe
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lamine-yamal-barcelona-injury-blame-mcdonalds-private-jet-row/blt596df74b499bd99c
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/cristiano-ronaldo-portugal-2026-world-cup-fernando-hierro-comments/blt5e02dd668a823165
+✅ Updated
+
+✅ DONE
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/video_scraper.py", line 654, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+----- RUN END Mon Apr 27 10:15:35 AM PKT 2026 -----
+[?2004h)0[1;24r[m(B[4l[?7h[?25l[H[J[22;34H[0;7m(B[ Reading... ][m(B[22;32H[0;7m(B[ Read 24 lines ][m(B[?25h[24;1H[?2004lStandard input is not a terminal
+crontab: "/usr/bin/sensible-editor" exited with status 1
+----- RUN START Mon Apr 27 10:18:01 AM PKT 2026 -----
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/news_url_collector.py", line 1, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+🔎 Found 29 URLs
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-robert-lewandowski-transfer-ac-milan-juventus-usmnt-pulisic-mckennie/bltd36a5f7bd16a6e34
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/manuel-ugarte-transfer-listed-man-utd-sir-jim-ratcliffe-leeds-united-display/blt90edc83e85ac963e
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/juventus-ready-to-table-bernardo-silva-offer-barcelona-also-eye-free-transfer-man-city-icon/blt9bd75ce6787a9672
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-in-pole-position-to-win-elliot-anderson-transfer-race-ahead-of-man-utd/blt82ac95c296f42500
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jadon-sancho-open-to-third-borussia-dortmund-spell-niko-kovac-green-lights-free-transfer-swoop-for-man-utd-outcast/blt39c9da8c6fe1be70
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/sergio-aguero-reveals-when-lionel-messi-will-make-decision-inter-miami-future-hopes-neymar-joins-argentine-mls/blt7dea4124bf2e83ed
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/nicolas-jackson-set-return-to-chelsea-bayern-munich-not-planning-keep-him-despite-impressive-form-harry-kane-stand-in/blt337209e207dc442d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/enzo-fernandez-man-city-chelsea-transfer-news/blt5b61be6098fe125d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arsenal-transfer-news-arda-guler-real-madrid-interest/blte8771561a0902d7d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/bruno-fernandes-man-utd-future-decision-transfer-news/bltd6f93bfa3202b053
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-transfer-news-marcus-rashford-man-utd-return-loan-decision/bltdd43cc916f8f7719
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-leny-yoro-ayden-heaven-partnership-micky-van-de-ven-transfer-target/bltca476204fed7550b
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-chelsea-lead-chase-james-trafford-tranfer-man-city-goalkeeper-gianluigi-donnarumma/blt0beff432ffe610b9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-plotting-transfer-swoop-for-real-madrid-star-to-address-priority-position/bltf8bc1678cee98caa
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/marcus-rashford-and-frenkie-de-jong-among-five-barcelona-stars-set-to-be-moved-on-in-summer-transfer-window/blt6b394fcec816c145
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-news-jamie-carragher-todd-boehly-blueco-liam-rosenior-mismanagement/blt06fca2d6a198e2c0
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lisandro-martinez-man-utd-hair-pull-dominic-calvert-lewin-appeal-verdict/bltfcd24dad66a00a9d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-new-stadium-sebastian-coe-regeneration-update/blt9f78af809d750146
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-manager-news-jose-mourinho-stamford-bridge-return-liam-rosenior/blt0993c76d41c770e7
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arne-slot-alexander-isak-best-level-liverpool-mohamed-salah/bltc1a4ef4d52c59649
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-injury-news-hugo-ekitike-arne-slot-achilles-surgery-update/blt1550c033586f6484
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jorge-mendes-advice-lamine-yamal-cristiano-ronaldo-lionel-messi/blt4e315669081b9cd5
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/real-madrid-manager-news-florentino-perez-alvaro-arbeloa-mourinho-klopp/blt3307493d0d2d32d8
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-james-trafford-gianluigi-donnarumma-learning-experience-transfer/blt714a350be35a2ef9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/england-world-cup-squad-morgan-gibbs-white-nottingham-forest-thomas-tuchel/bltaa98a21b1a751c81
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-william-gallas-cesc-fabregas-diego-simeone-liam-rosenior-sacking/blt060844cdf94b51b6
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/rodri-man-city-injury-fixture-schedule-warning-premier-league/blt9995c92e78c121fe
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lamine-yamal-barcelona-injury-blame-mcdonalds-private-jet-row/blt596df74b499bd99c
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/cristiano-ronaldo-portugal-2026-world-cup-fernando-hierro-comments/blt5e02dd668a823165
+✅ Updated
+
+✅ DONE
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/video_scraper.py", line 654, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+----- RUN END Mon Apr 27 10:18:36 AM PKT 2026 -----
+[?2004h)0[1;24r[m(B[4l[?7h[?25l[H[J[22;34H[0;7m(B[ Reading... ][m(B[22;32H[0;7m(B[ Read 24 lines ][m(B[?25h[24;1H[?2004lStandard input is not a terminal
+crontab: "/usr/bin/sensible-editor" exited with status 1
+----- RUN START Mon Apr 27 10:21:01 AM PKT 2026 -----
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/news_url_collector.py", line 1, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+🔎 Found 29 URLs
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-robert-lewandowski-transfer-ac-milan-juventus-usmnt-pulisic-mckennie/bltd36a5f7bd16a6e34
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/manuel-ugarte-transfer-listed-man-utd-sir-jim-ratcliffe-leeds-united-display/blt90edc83e85ac963e
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/juventus-ready-to-table-bernardo-silva-offer-barcelona-also-eye-free-transfer-man-city-icon/blt9bd75ce6787a9672
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-in-pole-position-to-win-elliot-anderson-transfer-race-ahead-of-man-utd/blt82ac95c296f42500
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jadon-sancho-open-to-third-borussia-dortmund-spell-niko-kovac-green-lights-free-transfer-swoop-for-man-utd-outcast/blt39c9da8c6fe1be70
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/sergio-aguero-reveals-when-lionel-messi-will-make-decision-inter-miami-future-hopes-neymar-joins-argentine-mls/blt7dea4124bf2e83ed
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/nicolas-jackson-set-return-to-chelsea-bayern-munich-not-planning-keep-him-despite-impressive-form-harry-kane-stand-in/blt337209e207dc442d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/enzo-fernandez-man-city-chelsea-transfer-news/blt5b61be6098fe125d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arsenal-transfer-news-arda-guler-real-madrid-interest/blte8771561a0902d7d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/bruno-fernandes-man-utd-future-decision-transfer-news/bltd6f93bfa3202b053
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-transfer-news-marcus-rashford-man-utd-return-loan-decision/bltdd43cc916f8f7719
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-leny-yoro-ayden-heaven-partnership-micky-van-de-ven-transfer-target/bltca476204fed7550b
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-chelsea-lead-chase-james-trafford-tranfer-man-city-goalkeeper-gianluigi-donnarumma/blt0beff432ffe610b9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-plotting-transfer-swoop-for-real-madrid-star-to-address-priority-position/bltf8bc1678cee98caa
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/marcus-rashford-and-frenkie-de-jong-among-five-barcelona-stars-set-to-be-moved-on-in-summer-transfer-window/blt6b394fcec816c145
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-news-jamie-carragher-todd-boehly-blueco-liam-rosenior-mismanagement/blt06fca2d6a198e2c0
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lisandro-martinez-man-utd-hair-pull-dominic-calvert-lewin-appeal-verdict/bltfcd24dad66a00a9d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-new-stadium-sebastian-coe-regeneration-update/blt9f78af809d750146
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-manager-news-jose-mourinho-stamford-bridge-return-liam-rosenior/blt0993c76d41c770e7
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arne-slot-alexander-isak-best-level-liverpool-mohamed-salah/bltc1a4ef4d52c59649
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-injury-news-hugo-ekitike-arne-slot-achilles-surgery-update/blt1550c033586f6484
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jorge-mendes-advice-lamine-yamal-cristiano-ronaldo-lionel-messi/blt4e315669081b9cd5
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/real-madrid-manager-news-florentino-perez-alvaro-arbeloa-mourinho-klopp/blt3307493d0d2d32d8
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-james-trafford-gianluigi-donnarumma-learning-experience-transfer/blt714a350be35a2ef9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/england-world-cup-squad-morgan-gibbs-white-nottingham-forest-thomas-tuchel/bltaa98a21b1a751c81
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-william-gallas-cesc-fabregas-diego-simeone-liam-rosenior-sacking/blt060844cdf94b51b6
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/rodri-man-city-injury-fixture-schedule-warning-premier-league/blt9995c92e78c121fe
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lamine-yamal-barcelona-injury-blame-mcdonalds-private-jet-row/blt596df74b499bd99c
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/cristiano-ronaldo-portugal-2026-world-cup-fernando-hierro-comments/blt5e02dd668a823165
+✅ Updated
+
+✅ DONE
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/video_scraper.py", line 654, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+----- RUN END Mon Apr 27 10:21:35 AM PKT 2026 -----
+[?2004h)0[1;24r[m(B[4l[?7h[?25l[H[J[22;34H[0;7m(B[ Reading... ][m(B[22;32H[0;7m(B[ Read 24 lines ][m(B[?25h[24;1H[?2004lStandard input is not a terminal
+crontab: "/usr/bin/sensible-editor" exited with status 1
+----- RUN START Mon Apr 27 10:24:01 AM PKT 2026 -----
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/news_url_collector.py", line 1, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+🔎 Found 29 URLs
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-robert-lewandowski-transfer-ac-milan-juventus-usmnt-pulisic-mckennie/bltd36a5f7bd16a6e34
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/manuel-ugarte-transfer-listed-man-utd-sir-jim-ratcliffe-leeds-united-display/blt90edc83e85ac963e
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/juventus-ready-to-table-bernardo-silva-offer-barcelona-also-eye-free-transfer-man-city-icon/blt9bd75ce6787a9672
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-in-pole-position-to-win-elliot-anderson-transfer-race-ahead-of-man-utd/blt82ac95c296f42500
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jadon-sancho-open-to-third-borussia-dortmund-spell-niko-kovac-green-lights-free-transfer-swoop-for-man-utd-outcast/blt39c9da8c6fe1be70
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/sergio-aguero-reveals-when-lionel-messi-will-make-decision-inter-miami-future-hopes-neymar-joins-argentine-mls/blt7dea4124bf2e83ed
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/nicolas-jackson-set-return-to-chelsea-bayern-munich-not-planning-keep-him-despite-impressive-form-harry-kane-stand-in/blt337209e207dc442d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/enzo-fernandez-man-city-chelsea-transfer-news/blt5b61be6098fe125d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arsenal-transfer-news-arda-guler-real-madrid-interest/blte8771561a0902d7d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/bruno-fernandes-man-utd-future-decision-transfer-news/bltd6f93bfa3202b053
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-transfer-news-marcus-rashford-man-utd-return-loan-decision/bltdd43cc916f8f7719
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-leny-yoro-ayden-heaven-partnership-micky-van-de-ven-transfer-target/bltca476204fed7550b
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-chelsea-lead-chase-james-trafford-tranfer-man-city-goalkeeper-gianluigi-donnarumma/blt0beff432ffe610b9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-plotting-transfer-swoop-for-real-madrid-star-to-address-priority-position/bltf8bc1678cee98caa
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/marcus-rashford-and-frenkie-de-jong-among-five-barcelona-stars-set-to-be-moved-on-in-summer-transfer-window/blt6b394fcec816c145
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-news-jamie-carragher-todd-boehly-blueco-liam-rosenior-mismanagement/blt06fca2d6a198e2c0
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lisandro-martinez-man-utd-hair-pull-dominic-calvert-lewin-appeal-verdict/bltfcd24dad66a00a9d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-new-stadium-sebastian-coe-regeneration-update/blt9f78af809d750146
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-manager-news-jose-mourinho-stamford-bridge-return-liam-rosenior/blt0993c76d41c770e7
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arne-slot-alexander-isak-best-level-liverpool-mohamed-salah/bltc1a4ef4d52c59649
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-injury-news-hugo-ekitike-arne-slot-achilles-surgery-update/blt1550c033586f6484
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jorge-mendes-advice-lamine-yamal-cristiano-ronaldo-lionel-messi/blt4e315669081b9cd5
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/real-madrid-manager-news-florentino-perez-alvaro-arbeloa-mourinho-klopp/blt3307493d0d2d32d8
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-james-trafford-gianluigi-donnarumma-learning-experience-transfer/blt714a350be35a2ef9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/england-world-cup-squad-morgan-gibbs-white-nottingham-forest-thomas-tuchel/bltaa98a21b1a751c81
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-william-gallas-cesc-fabregas-diego-simeone-liam-rosenior-sacking/blt060844cdf94b51b6
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/rodri-man-city-injury-fixture-schedule-warning-premier-league/blt9995c92e78c121fe
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lamine-yamal-barcelona-injury-blame-mcdonalds-private-jet-row/blt596df74b499bd99c
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/cristiano-ronaldo-portugal-2026-world-cup-fernando-hierro-comments/blt5e02dd668a823165
+✅ Updated
+
+✅ DONE
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/video_scraper.py", line 654, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+----- RUN END Mon Apr 27 10:24:39 AM PKT 2026 -----
+[?2004h)0[1;24r[m(B[4l[?7h[?25l[H[J[22;34H[0;7m(B[ Reading... ][m(B[22;32H[0;7m(B[ Read 24 lines ][m(B[?25h[24;1H[?2004lStandard input is not a terminal
+crontab: "/usr/bin/sensible-editor" exited with status 1
+----- RUN START Mon Apr 27 10:27:01 AM PKT 2026 -----
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/news_url_collector.py", line 1, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+🔎 Found 29 URLs
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-robert-lewandowski-transfer-ac-milan-juventus-usmnt-pulisic-mckennie/bltd36a5f7bd16a6e34
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/manuel-ugarte-transfer-listed-man-utd-sir-jim-ratcliffe-leeds-united-display/blt90edc83e85ac963e
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/juventus-ready-to-table-bernardo-silva-offer-barcelona-also-eye-free-transfer-man-city-icon/blt9bd75ce6787a9672
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-in-pole-position-to-win-elliot-anderson-transfer-race-ahead-of-man-utd/blt82ac95c296f42500
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jadon-sancho-open-to-third-borussia-dortmund-spell-niko-kovac-green-lights-free-transfer-swoop-for-man-utd-outcast/blt39c9da8c6fe1be70
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/sergio-aguero-reveals-when-lionel-messi-will-make-decision-inter-miami-future-hopes-neymar-joins-argentine-mls/blt7dea4124bf2e83ed
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/nicolas-jackson-set-return-to-chelsea-bayern-munich-not-planning-keep-him-despite-impressive-form-harry-kane-stand-in/blt337209e207dc442d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/enzo-fernandez-man-city-chelsea-transfer-news/blt5b61be6098fe125d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arsenal-transfer-news-arda-guler-real-madrid-interest/blte8771561a0902d7d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/bruno-fernandes-man-utd-future-decision-transfer-news/bltd6f93bfa3202b053
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-transfer-news-marcus-rashford-man-utd-return-loan-decision/bltdd43cc916f8f7719
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-leny-yoro-ayden-heaven-partnership-micky-van-de-ven-transfer-target/bltca476204fed7550b
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-chelsea-lead-chase-james-trafford-tranfer-man-city-goalkeeper-gianluigi-donnarumma/blt0beff432ffe610b9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-plotting-transfer-swoop-for-real-madrid-star-to-address-priority-position/bltf8bc1678cee98caa
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/marcus-rashford-and-frenkie-de-jong-among-five-barcelona-stars-set-to-be-moved-on-in-summer-transfer-window/blt6b394fcec816c145
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-news-jamie-carragher-todd-boehly-blueco-liam-rosenior-mismanagement/blt06fca2d6a198e2c0
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lisandro-martinez-man-utd-hair-pull-dominic-calvert-lewin-appeal-verdict/bltfcd24dad66a00a9d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-new-stadium-sebastian-coe-regeneration-update/blt9f78af809d750146
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-manager-news-jose-mourinho-stamford-bridge-return-liam-rosenior/blt0993c76d41c770e7
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arne-slot-alexander-isak-best-level-liverpool-mohamed-salah/bltc1a4ef4d52c59649
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-injury-news-hugo-ekitike-arne-slot-achilles-surgery-update/blt1550c033586f6484
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jorge-mendes-advice-lamine-yamal-cristiano-ronaldo-lionel-messi/blt4e315669081b9cd5
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/real-madrid-manager-news-florentino-perez-alvaro-arbeloa-mourinho-klopp/blt3307493d0d2d32d8
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-james-trafford-gianluigi-donnarumma-learning-experience-transfer/blt714a350be35a2ef9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/england-world-cup-squad-morgan-gibbs-white-nottingham-forest-thomas-tuchel/bltaa98a21b1a751c81
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-william-gallas-cesc-fabregas-diego-simeone-liam-rosenior-sacking/blt060844cdf94b51b6
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/rodri-man-city-injury-fixture-schedule-warning-premier-league/blt9995c92e78c121fe
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lamine-yamal-barcelona-injury-blame-mcdonalds-private-jet-row/blt596df74b499bd99c
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/cristiano-ronaldo-portugal-2026-world-cup-fernando-hierro-comments/blt5e02dd668a823165
+✅ Updated
+
+✅ DONE
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/video_scraper.py", line 654, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+----- RUN END Mon Apr 27 10:27:34 AM PKT 2026 -----
+[?2004h)0[1;24r[m(B[4l[?7h[?25l[H[J[22;34H[0;7m(B[ Reading... ][m(B[22;32H[0;7m(B[ Read 24 lines ][m(B[?25h[24;1H[?2004lStandard input is not a terminal
+crontab: "/usr/bin/sensible-editor" exited with status 1
+----- RUN START Mon Apr 27 10:30:01 AM PKT 2026 -----
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/news_url_collector.py", line 1, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+🔎 Found 29 URLs
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-robert-lewandowski-transfer-ac-milan-juventus-usmnt-pulisic-mckennie/bltd36a5f7bd16a6e34
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/manuel-ugarte-transfer-listed-man-utd-sir-jim-ratcliffe-leeds-united-display/blt90edc83e85ac963e
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/juventus-ready-to-table-bernardo-silva-offer-barcelona-also-eye-free-transfer-man-city-icon/blt9bd75ce6787a9672
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-in-pole-position-to-win-elliot-anderson-transfer-race-ahead-of-man-utd/blt82ac95c296f42500
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jadon-sancho-open-to-third-borussia-dortmund-spell-niko-kovac-green-lights-free-transfer-swoop-for-man-utd-outcast/blt39c9da8c6fe1be70
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/sergio-aguero-reveals-when-lionel-messi-will-make-decision-inter-miami-future-hopes-neymar-joins-argentine-mls/blt7dea4124bf2e83ed
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/nicolas-jackson-set-return-to-chelsea-bayern-munich-not-planning-keep-him-despite-impressive-form-harry-kane-stand-in/blt337209e207dc442d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/enzo-fernandez-man-city-chelsea-transfer-news/blt5b61be6098fe125d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arsenal-transfer-news-arda-guler-real-madrid-interest/blte8771561a0902d7d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/bruno-fernandes-man-utd-future-decision-transfer-news/bltd6f93bfa3202b053
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-transfer-news-marcus-rashford-man-utd-return-loan-decision/bltdd43cc916f8f7719
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-leny-yoro-ayden-heaven-partnership-micky-van-de-ven-transfer-target/bltca476204fed7550b
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-chelsea-lead-chase-james-trafford-tranfer-man-city-goalkeeper-gianluigi-donnarumma/blt0beff432ffe610b9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-plotting-transfer-swoop-for-real-madrid-star-to-address-priority-position/bltf8bc1678cee98caa
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/marcus-rashford-and-frenkie-de-jong-among-five-barcelona-stars-set-to-be-moved-on-in-summer-transfer-window/blt6b394fcec816c145
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-news-jamie-carragher-todd-boehly-blueco-liam-rosenior-mismanagement/blt06fca2d6a198e2c0
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lisandro-martinez-man-utd-hair-pull-dominic-calvert-lewin-appeal-verdict/bltfcd24dad66a00a9d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-new-stadium-sebastian-coe-regeneration-update/blt9f78af809d750146
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-manager-news-jose-mourinho-stamford-bridge-return-liam-rosenior/blt0993c76d41c770e7
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arne-slot-alexander-isak-best-level-liverpool-mohamed-salah/bltc1a4ef4d52c59649
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-injury-news-hugo-ekitike-arne-slot-achilles-surgery-update/blt1550c033586f6484
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jorge-mendes-advice-lamine-yamal-cristiano-ronaldo-lionel-messi/blt4e315669081b9cd5
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/real-madrid-manager-news-florentino-perez-alvaro-arbeloa-mourinho-klopp/blt3307493d0d2d32d8
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-james-trafford-gianluigi-donnarumma-learning-experience-transfer/blt714a350be35a2ef9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/england-world-cup-squad-morgan-gibbs-white-nottingham-forest-thomas-tuchel/bltaa98a21b1a751c81
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-william-gallas-cesc-fabregas-diego-simeone-liam-rosenior-sacking/blt060844cdf94b51b6
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/rodri-man-city-injury-fixture-schedule-warning-premier-league/blt9995c92e78c121fe
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lamine-yamal-barcelona-injury-blame-mcdonalds-private-jet-row/blt596df74b499bd99c
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/cristiano-ronaldo-portugal-2026-world-cup-fernando-hierro-comments/blt5e02dd668a823165
+✅ Updated
+
+✅ DONE
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/video_scraper.py", line 654, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+----- RUN END Mon Apr 27 10:30:36 AM PKT 2026 -----
+[?2004h)0[1;24r[m(B[4l[?7h[?25l[H[J[22;34H[0;7m(B[ Reading... ][m(B[22;32H[0;7m(B[ Read 24 lines ][m(B[?25h[24;1H[?2004lStandard input is not a terminal
+crontab: "/usr/bin/sensible-editor" exited with status 1
+----- RUN START Mon Apr 27 10:33:01 AM PKT 2026 -----
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/news_url_collector.py", line 1, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+🔎 Found 29 URLs
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-robert-lewandowski-transfer-ac-milan-juventus-usmnt-pulisic-mckennie/bltd36a5f7bd16a6e34
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/manuel-ugarte-transfer-listed-man-utd-sir-jim-ratcliffe-leeds-united-display/blt90edc83e85ac963e
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/juventus-ready-to-table-bernardo-silva-offer-barcelona-also-eye-free-transfer-man-city-icon/blt9bd75ce6787a9672
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-in-pole-position-to-win-elliot-anderson-transfer-race-ahead-of-man-utd/blt82ac95c296f42500
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jadon-sancho-open-to-third-borussia-dortmund-spell-niko-kovac-green-lights-free-transfer-swoop-for-man-utd-outcast/blt39c9da8c6fe1be70
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/sergio-aguero-reveals-when-lionel-messi-will-make-decision-inter-miami-future-hopes-neymar-joins-argentine-mls/blt7dea4124bf2e83ed
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/nicolas-jackson-set-return-to-chelsea-bayern-munich-not-planning-keep-him-despite-impressive-form-harry-kane-stand-in/blt337209e207dc442d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/enzo-fernandez-man-city-chelsea-transfer-news/blt5b61be6098fe125d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arsenal-transfer-news-arda-guler-real-madrid-interest/blte8771561a0902d7d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/bruno-fernandes-man-utd-future-decision-transfer-news/bltd6f93bfa3202b053
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-transfer-news-marcus-rashford-man-utd-return-loan-decision/bltdd43cc916f8f7719
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-leny-yoro-ayden-heaven-partnership-micky-van-de-ven-transfer-target/bltca476204fed7550b
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-chelsea-lead-chase-james-trafford-tranfer-man-city-goalkeeper-gianluigi-donnarumma/blt0beff432ffe610b9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-plotting-transfer-swoop-for-real-madrid-star-to-address-priority-position/bltf8bc1678cee98caa
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/marcus-rashford-and-frenkie-de-jong-among-five-barcelona-stars-set-to-be-moved-on-in-summer-transfer-window/blt6b394fcec816c145
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-news-jamie-carragher-todd-boehly-blueco-liam-rosenior-mismanagement/blt06fca2d6a198e2c0
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lisandro-martinez-man-utd-hair-pull-dominic-calvert-lewin-appeal-verdict/bltfcd24dad66a00a9d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-new-stadium-sebastian-coe-regeneration-update/blt9f78af809d750146
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-manager-news-jose-mourinho-stamford-bridge-return-liam-rosenior/blt0993c76d41c770e7
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arne-slot-alexander-isak-best-level-liverpool-mohamed-salah/bltc1a4ef4d52c59649
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-injury-news-hugo-ekitike-arne-slot-achilles-surgery-update/blt1550c033586f6484
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jorge-mendes-advice-lamine-yamal-cristiano-ronaldo-lionel-messi/blt4e315669081b9cd5
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/real-madrid-manager-news-florentino-perez-alvaro-arbeloa-mourinho-klopp/blt3307493d0d2d32d8
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-james-trafford-gianluigi-donnarumma-learning-experience-transfer/blt714a350be35a2ef9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/england-world-cup-squad-morgan-gibbs-white-nottingham-forest-thomas-tuchel/bltaa98a21b1a751c81
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-william-gallas-cesc-fabregas-diego-simeone-liam-rosenior-sacking/blt060844cdf94b51b6
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/rodri-man-city-injury-fixture-schedule-warning-premier-league/blt9995c92e78c121fe
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lamine-yamal-barcelona-injury-blame-mcdonalds-private-jet-row/blt596df74b499bd99c
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/cristiano-ronaldo-portugal-2026-world-cup-fernando-hierro-comments/blt5e02dd668a823165
+✅ Updated
+
+✅ DONE
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/video_scraper.py", line 654, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+----- RUN END Mon Apr 27 10:33:36 AM PKT 2026 -----
+[?2004h)0[1;24r[m(B[4l[?7h[?25l[H[J[22;34H[0;7m(B[ Reading... ][m(B[22;32H[0;7m(B[ Read 24 lines ][m(B[?25h[24;1H[?2004lStandard input is not a terminal
+crontab: "/usr/bin/sensible-editor" exited with status 1
+----- RUN START Mon Apr 27 10:36:01 AM PKT 2026 -----
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/news_url_collector.py", line 1, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+🔎 Found 29 URLs
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-robert-lewandowski-transfer-ac-milan-juventus-usmnt-pulisic-mckennie/bltd36a5f7bd16a6e34
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/manuel-ugarte-transfer-listed-man-utd-sir-jim-ratcliffe-leeds-united-display/blt90edc83e85ac963e
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/juventus-ready-to-table-bernardo-silva-offer-barcelona-also-eye-free-transfer-man-city-icon/blt9bd75ce6787a9672
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-in-pole-position-to-win-elliot-anderson-transfer-race-ahead-of-man-utd/blt82ac95c296f42500
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jadon-sancho-open-to-third-borussia-dortmund-spell-niko-kovac-green-lights-free-transfer-swoop-for-man-utd-outcast/blt39c9da8c6fe1be70
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/sergio-aguero-reveals-when-lionel-messi-will-make-decision-inter-miami-future-hopes-neymar-joins-argentine-mls/blt7dea4124bf2e83ed
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/nicolas-jackson-set-return-to-chelsea-bayern-munich-not-planning-keep-him-despite-impressive-form-harry-kane-stand-in/blt337209e207dc442d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/enzo-fernandez-man-city-chelsea-transfer-news/blt5b61be6098fe125d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arsenal-transfer-news-arda-guler-real-madrid-interest/blte8771561a0902d7d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/bruno-fernandes-man-utd-future-decision-transfer-news/bltd6f93bfa3202b053
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-transfer-news-marcus-rashford-man-utd-return-loan-decision/bltdd43cc916f8f7719
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-leny-yoro-ayden-heaven-partnership-micky-van-de-ven-transfer-target/bltca476204fed7550b
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-chelsea-lead-chase-james-trafford-tranfer-man-city-goalkeeper-gianluigi-donnarumma/blt0beff432ffe610b9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-plotting-transfer-swoop-for-real-madrid-star-to-address-priority-position/bltf8bc1678cee98caa
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/marcus-rashford-and-frenkie-de-jong-among-five-barcelona-stars-set-to-be-moved-on-in-summer-transfer-window/blt6b394fcec816c145
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-news-jamie-carragher-todd-boehly-blueco-liam-rosenior-mismanagement/blt06fca2d6a198e2c0
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lisandro-martinez-man-utd-hair-pull-dominic-calvert-lewin-appeal-verdict/bltfcd24dad66a00a9d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-new-stadium-sebastian-coe-regeneration-update/blt9f78af809d750146
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-manager-news-jose-mourinho-stamford-bridge-return-liam-rosenior/blt0993c76d41c770e7
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arne-slot-alexander-isak-best-level-liverpool-mohamed-salah/bltc1a4ef4d52c59649
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-injury-news-hugo-ekitike-arne-slot-achilles-surgery-update/blt1550c033586f6484
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jorge-mendes-advice-lamine-yamal-cristiano-ronaldo-lionel-messi/blt4e315669081b9cd5
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/real-madrid-manager-news-florentino-perez-alvaro-arbeloa-mourinho-klopp/blt3307493d0d2d32d8
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-james-trafford-gianluigi-donnarumma-learning-experience-transfer/blt714a350be35a2ef9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/england-world-cup-squad-morgan-gibbs-white-nottingham-forest-thomas-tuchel/bltaa98a21b1a751c81
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-william-gallas-cesc-fabregas-diego-simeone-liam-rosenior-sacking/blt060844cdf94b51b6
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/rodri-man-city-injury-fixture-schedule-warning-premier-league/blt9995c92e78c121fe
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lamine-yamal-barcelona-injury-blame-mcdonalds-private-jet-row/blt596df74b499bd99c
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/cristiano-ronaldo-portugal-2026-world-cup-fernando-hierro-comments/blt5e02dd668a823165
+✅ Updated
+
+✅ DONE
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/video_scraper.py", line 654, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+----- RUN END Mon Apr 27 10:36:35 AM PKT 2026 -----
+[?2004h)0[1;24r[m(B[4l[?7h[?25l[H[J[22;34H[0;7m(B[ Reading... ][m(B[22;32H[0;7m(B[ Read 24 lines ][m(B[?25h[24;1H[?2004lStandard input is not a terminal
+crontab: "/usr/bin/sensible-editor" exited with status 1
+----- RUN START Mon Apr 27 10:39:01 AM PKT 2026 -----
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/news_url_collector.py", line 1, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+🔎 Found 29 URLs
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-robert-lewandowski-transfer-ac-milan-juventus-usmnt-pulisic-mckennie/bltd36a5f7bd16a6e34
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/manuel-ugarte-transfer-listed-man-utd-sir-jim-ratcliffe-leeds-united-display/blt90edc83e85ac963e
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/juventus-ready-to-table-bernardo-silva-offer-barcelona-also-eye-free-transfer-man-city-icon/blt9bd75ce6787a9672
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-in-pole-position-to-win-elliot-anderson-transfer-race-ahead-of-man-utd/blt82ac95c296f42500
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jadon-sancho-open-to-third-borussia-dortmund-spell-niko-kovac-green-lights-free-transfer-swoop-for-man-utd-outcast/blt39c9da8c6fe1be70
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/sergio-aguero-reveals-when-lionel-messi-will-make-decision-inter-miami-future-hopes-neymar-joins-argentine-mls/blt7dea4124bf2e83ed
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/nicolas-jackson-set-return-to-chelsea-bayern-munich-not-planning-keep-him-despite-impressive-form-harry-kane-stand-in/blt337209e207dc442d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/enzo-fernandez-man-city-chelsea-transfer-news/blt5b61be6098fe125d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arsenal-transfer-news-arda-guler-real-madrid-interest/blte8771561a0902d7d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/bruno-fernandes-man-utd-future-decision-transfer-news/bltd6f93bfa3202b053
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-transfer-news-marcus-rashford-man-utd-return-loan-decision/bltdd43cc916f8f7719
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-leny-yoro-ayden-heaven-partnership-micky-van-de-ven-transfer-target/bltca476204fed7550b
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-chelsea-lead-chase-james-trafford-tranfer-man-city-goalkeeper-gianluigi-donnarumma/blt0beff432ffe610b9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-plotting-transfer-swoop-for-real-madrid-star-to-address-priority-position/bltf8bc1678cee98caa
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/marcus-rashford-and-frenkie-de-jong-among-five-barcelona-stars-set-to-be-moved-on-in-summer-transfer-window/blt6b394fcec816c145
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-news-jamie-carragher-todd-boehly-blueco-liam-rosenior-mismanagement/blt06fca2d6a198e2c0
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lisandro-martinez-man-utd-hair-pull-dominic-calvert-lewin-appeal-verdict/bltfcd24dad66a00a9d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-new-stadium-sebastian-coe-regeneration-update/blt9f78af809d750146
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-manager-news-jose-mourinho-stamford-bridge-return-liam-rosenior/blt0993c76d41c770e7
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arne-slot-alexander-isak-best-level-liverpool-mohamed-salah/bltc1a4ef4d52c59649
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-injury-news-hugo-ekitike-arne-slot-achilles-surgery-update/blt1550c033586f6484
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jorge-mendes-advice-lamine-yamal-cristiano-ronaldo-lionel-messi/blt4e315669081b9cd5
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/real-madrid-manager-news-florentino-perez-alvaro-arbeloa-mourinho-klopp/blt3307493d0d2d32d8
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-james-trafford-gianluigi-donnarumma-learning-experience-transfer/blt714a350be35a2ef9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/england-world-cup-squad-morgan-gibbs-white-nottingham-forest-thomas-tuchel/bltaa98a21b1a751c81
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-william-gallas-cesc-fabregas-diego-simeone-liam-rosenior-sacking/blt060844cdf94b51b6
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/rodri-man-city-injury-fixture-schedule-warning-premier-league/blt9995c92e78c121fe
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lamine-yamal-barcelona-injury-blame-mcdonalds-private-jet-row/blt596df74b499bd99c
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/cristiano-ronaldo-portugal-2026-world-cup-fernando-hierro-comments/blt5e02dd668a823165
+✅ Updated
+
+✅ DONE
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/video_scraper.py", line 654, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+----- RUN END Mon Apr 27 10:39:35 AM PKT 2026 -----
+[?2004h)0[1;24r[m(B[4l[?7h[?25l[H[J[22;34H[0;7m(B[ Reading... ][m(B[22;32H[0;7m(B[ Read 24 lines ][m(B[?25h[24;1H[?2004lStandard input is not a terminal
+crontab: "/usr/bin/sensible-editor" exited with status 1
+----- RUN START Mon Apr 27 10:42:01 AM PKT 2026 -----
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/news_url_collector.py", line 1, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+🔎 Found 29 URLs
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-robert-lewandowski-transfer-ac-milan-juventus-usmnt-pulisic-mckennie/bltd36a5f7bd16a6e34
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/manuel-ugarte-transfer-listed-man-utd-sir-jim-ratcliffe-leeds-united-display/blt90edc83e85ac963e
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/juventus-ready-to-table-bernardo-silva-offer-barcelona-also-eye-free-transfer-man-city-icon/blt9bd75ce6787a9672
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-in-pole-position-to-win-elliot-anderson-transfer-race-ahead-of-man-utd/blt82ac95c296f42500
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jadon-sancho-open-to-third-borussia-dortmund-spell-niko-kovac-green-lights-free-transfer-swoop-for-man-utd-outcast/blt39c9da8c6fe1be70
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/sergio-aguero-reveals-when-lionel-messi-will-make-decision-inter-miami-future-hopes-neymar-joins-argentine-mls/blt7dea4124bf2e83ed
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/nicolas-jackson-set-return-to-chelsea-bayern-munich-not-planning-keep-him-despite-impressive-form-harry-kane-stand-in/blt337209e207dc442d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/enzo-fernandez-man-city-chelsea-transfer-news/blt5b61be6098fe125d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arsenal-transfer-news-arda-guler-real-madrid-interest/blte8771561a0902d7d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/bruno-fernandes-man-utd-future-decision-transfer-news/bltd6f93bfa3202b053
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/barcelona-transfer-news-marcus-rashford-man-utd-return-loan-decision/bltdd43cc916f8f7719
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-leny-yoro-ayden-heaven-partnership-micky-van-de-ven-transfer-target/bltca476204fed7550b
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-chelsea-lead-chase-james-trafford-tranfer-man-city-goalkeeper-gianluigi-donnarumma/blt0beff432ffe610b9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-plotting-transfer-swoop-for-real-madrid-star-to-address-priority-position/bltf8bc1678cee98caa
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/marcus-rashford-and-frenkie-de-jong-among-five-barcelona-stars-set-to-be-moved-on-in-summer-transfer-window/blt6b394fcec816c145
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-news-jamie-carragher-todd-boehly-blueco-liam-rosenior-mismanagement/blt06fca2d6a198e2c0
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lisandro-martinez-man-utd-hair-pull-dominic-calvert-lewin-appeal-verdict/bltfcd24dad66a00a9d
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-utd-new-stadium-sebastian-coe-regeneration-update/blt9f78af809d750146
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-manager-news-jose-mourinho-stamford-bridge-return-liam-rosenior/blt0993c76d41c770e7
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/arne-slot-alexander-isak-best-level-liverpool-mohamed-salah/bltc1a4ef4d52c59649
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/liverpool-injury-news-hugo-ekitike-arne-slot-achilles-surgery-update/blt1550c033586f6484
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/jorge-mendes-advice-lamine-yamal-cristiano-ronaldo-lionel-messi/blt4e315669081b9cd5
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/real-madrid-manager-news-florentino-perez-alvaro-arbeloa-mourinho-klopp/blt3307493d0d2d32d8
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/man-city-james-trafford-gianluigi-donnarumma-learning-experience-transfer/blt714a350be35a2ef9
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/england-world-cup-squad-morgan-gibbs-white-nottingham-forest-thomas-tuchel/bltaa98a21b1a751c81
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/chelsea-william-gallas-cesc-fabregas-diego-simeone-liam-rosenior-sacking/blt060844cdf94b51b6
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/rodri-man-city-injury-fixture-schedule-warning-premier-league/blt9995c92e78c121fe
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/lamine-yamal-barcelona-injury-blame-mcdonalds-private-jet-row/blt596df74b499bd99c
+✅ Updated
+
+📰 Scraping: https://www.goal.com/en/lists/cristiano-ronaldo-portugal-2026-world-cup-fernando-hierro-comments/blt5e02dd668a823165
+✅ Updated
+
+✅ DONE
+Traceback (most recent call last):
+  File "/home/bitech-office/Sanwal/football_app/app/scrapers/video_scraper.py", line 654, in <module>
+    from app.db.connection import get_db
+ModuleNotFoundError: No module named 'app'
+----- RUN END Mon Apr 27 10:42:35 AM PKT 2026 -----
+[?2004h)0[1;24r[m(B[4l[?7h[?25l[H[J[22;34H[0;7m(B[ Reading... ][m(B[22;32H[0;7m(B[ Read 24 lines ][m(B[?25h[24;1H[?2004lStandard input is not a terminal
+crontab: "/usr/bin/sensible-editor" exited with status 1
