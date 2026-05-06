@@ -66,13 +66,30 @@ def download_video(reel_url, shortcode):
     output_path = f"{VIDEO_DIR}/{shortcode}.mp4"
 
     try:
-        print(f"⬇️ Downloading {shortcode}")
+        print(f"⬇️ Processing {shortcode}")
 
-        subprocess.run([
+        # STEP 1: Extract direct video URL using yt-dlp
+        result = subprocess.run([
             "yt-dlp",
             "-f", "best",
-            "-o", output_path,
+            "-g",
             reel_url
+        ], capture_output=True, text=True, check=True)
+
+        video_url = result.stdout.strip()
+
+        if not video_url:
+            print(f"❌ No video URL found for {shortcode}")
+            return None
+
+        # STEP 2: Download using FFmpeg
+        subprocess.run([
+            "ffmpeg",
+            "-y",
+            "-i", video_url,
+            "-c:v", "copy",
+            "-c:a", "copy",
+            output_path
         ], check=True)
 
         return output_path
@@ -80,7 +97,6 @@ def download_video(reel_url, shortcode):
     except Exception as e:
         print(f"❌ Download failed {shortcode}: {e}")
         return None
-
 
 # ==============================
 # PROCESS PROFILE
