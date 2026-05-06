@@ -1,25 +1,24 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-import time
 import re
+import time
 import os
 import subprocess
 import sys
-
+from playwright.sync_api import sync_playwright
 
 # ==============================
-# PATH FIX (IMPORTANT)
+# PATH FIX
 # ==============================
 sys.path.append("/home/bitech-office/Sanwal/football_app")
-from app.db.connection  import get_db
+from app.db.connection import get_db
 
 # ==============================
 # CONFIG
 # ==============================
 VIDEO_DIR = "/home/bitech-office/Sanwal/football_app/downloads"
-RUN_INTERVAL = 600  # 10 min
+RUN_INTERVAL = 600
 
 os.makedirs(VIDEO_DIR, exist_ok=True)
+
 
 # ==============================
 # UTILS
@@ -30,27 +29,17 @@ def extract_shortcode(url):
 
 
 # ==============================
-# DRIVER
+# SCRAPE REELS (PLAYWRIGHT)
 # ==============================
-def init_driver():
-    options = webdriver.ChromeOptions()
-    options.add_argument("--headless=new")
-    options.add_argument("--window-size=1920,1080")
-    return webdriver.Chrome(options=options)
-
-
-# ==============================
-# SCRAPE REELS
-# ==============================
-def collect_reels(driver, profile_url):
-    driver.get(profile_url)
-    time.sleep(5)
+def collect_reels(page, profile_url):
+    page.goto(profile_url, wait_until="networkidle")
+    page.wait_for_timeout(4000)
 
     reels = []
     seen = set()
 
     for _ in range(8):
-        elements = driver.find_elements(By.XPATH, "//a[contains(@href, '/reel/')]")
+        elements = page.query_selector_all("a[href*='/reel/']")
 
         for el in elements:
             href = el.get_attribute("href")
@@ -60,14 +49,12 @@ def collect_reels(driver, profile_url):
             clean = href.split("?")[0]
             shortcode = extract_shortcode(clean)
 
-            if not shortcode or shortcode in seen:
-                continue
+            if shortcode and shortcode not in seen:
+                reels.append((clean, shortcode))
+                seen.add(shortcode)
 
-            reels.append((clean, shortcode))
-            seen.add(shortcode)
-
-        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        time.sleep(2)
+        page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+        page.wait_for_timeout(2000)
 
     return reels
 
@@ -98,18 +85,17 @@ def download_video(reel_url, shortcode):
 # ==============================
 # PROCESS PROFILE
 # ==============================
-def process_profile(driver, profile_url):
+def process_profile(page, profile_url):
     print(f"\n📌 Scraping: {profile_url}")
 
     conn = get_db()
     cur = conn.cursor()
 
-    reels = collect_reels(driver, profile_url)
+    reels = collect_reels(page, profile_url)
     print(f"🔎 Found {len(reels)} reels")
 
     for reel_url, shortcode in reels:
         try:
-            # STEP 1: check status
             cur.execute("""
                 SELECT status FROM instagram_reels WHERE shortcode=?
             """, (shortcode,))
@@ -119,14 +105,12 @@ def process_profile(driver, profile_url):
                 print(f"⏭️ Already done: {shortcode}")
                 continue
 
-            # STEP 2: insert if new
             cur.execute("""
                 INSERT OR IGNORE INTO instagram_reels (shortcode, reel_url, status)
                 VALUES (?, ?, 'pending')
             """, (shortcode, reel_url))
             conn.commit()
 
-            # STEP 3: mark downloading
             cur.execute("""
                 UPDATE instagram_reels
                 SET status='downloading'
@@ -134,10 +118,8 @@ def process_profile(driver, profile_url):
             """, (shortcode,))
             conn.commit()
 
-            # STEP 4: download
             path = download_video(reel_url, shortcode)
 
-            # STEP 5: update result
             if path:
                 cur.execute("""
                     UPDATE instagram_reels
@@ -165,35 +147,41 @@ def process_profile(driver, profile_url):
 # ==============================
 # MAIN LOOP
 # ==============================
-if __name__ == "__main__":
+def main():
     profiles = [
         "https://www.instagram.com/futoreels/",
         "https://www.instagram.com/premierleague/",
         "https://www.instagram.com/fcbarcelona/reels/"
     ]
 
-    driver = init_driver()
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
 
-    try:
-        while True:
-            print("\n🚀 SCRAPER START\n")
+        try:
+            while True:
+                print("\n🚀 PLAYWRIGHT SCRAPER START\n")
 
-            start_time = time.time()   # ⏱️ START TOTAL TIME
+                start_time = time.time()
 
-            for profile in profiles:
-                process_profile(driver, profile)
+                for profile in profiles:
+                    process_profile(page, profile)
 
-            end_time = time.time()     # ⏱️ END TOTAL TIME
+                end_time = time.time()
 
-            print("\n==============================")
-            print(f"⏱️ TOTAL EXECUTION TIME: {end_time - start_time:.2f} seconds")
-            print("==============================\n")
+                print("\n==============================")
+                print(f"⏱️ TOTAL EXECUTION TIME: {end_time - start_time:.2f} seconds")
+                print("==============================\n")
 
-            print("\n⏳ Sleeping...\n")
-            time.sleep(RUN_INTERVAL)
+                print("\n⏳ Sleeping...\n")
+                time.sleep(RUN_INTERVAL)
 
-    except KeyboardInterrupt:
-        print("🛑 Stopped manually")
+        except KeyboardInterrupt:
+            print("🛑 Stopped manually")
 
-    finally:
-        driver.quit()
+        finally:
+            browser.close()
+
+
+if __name__ == "__main__":
+    main()

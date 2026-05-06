@@ -1,6 +1,5 @@
 from fastapi import FastAPI
-from app.routes.news_routes import router as news_router
-
+from app.routes.insta_routes import router as insta_router
 app = FastAPI()
 
-app.include_router(news_router)
+app.include_router(insta_router)

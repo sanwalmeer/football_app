@@ -71,7 +71,7 @@ def get_all_videos():
     return [dict(row) for row in rows]
 
 
-def get_video_by_id(video_id: int):
+def get_video_by_id(video_id: str):
     conn = get_db()
     cursor = conn.cursor()
 
@@ -164,3 +164,10 @@ def get_league_by_id(league_id: int):
     conn.close()
     return dict(row) if row else None
 
+def get_news_count():
+    conn=get_db() 
+    cursor=conn.cursor()
+    cursor.execute("Select count(*) as total from news")
+    row=cursor.fetchone()
+    conn.close()
+    return row["total"]

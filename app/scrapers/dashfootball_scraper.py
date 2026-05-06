@@ -1,29 +1,58 @@
 from app.db.connection import get_db
+import asyncio
+import aiohttp
+from bs4 import BeautifulSoup
 from requests_html import HTMLSession
 import re
 import json
 import time
 
+BASE_URL = "https://dasfootball.com/"
+HEADERS = {"User-Agent": "Mozilla/5.0"}
+
 session = HTMLSession()
 
+
 # -------------------------
-# GET URLS FROM DB
+# FETCH LIST PAGES
 # -------------------------
-def get_pending_urls(cursor):
-    cursor.execute("""
-    SELECT url FROM match_scrape_queue
-    WHERE is_scraped = 0
-    """)
-    return [row[0] for row in cursor.fetchall()]
+async def fetch(session_http, url):
+    try:
+        async with session_http.get(url) as res:
+            if res.status != 200:
+                return None
+            return await res.text()
+    except:
+        return None
+
+
+# -------------------------
+# PARSE LINKS
+# -------------------------
+def parse_links(html):
+    soup = BeautifulSoup(html, "html.parser")
+    articles = soup.select(".agh-title a")
+    return [a.get("href") for a in articles if a.get("href")]
+
+
+# -------------------------
+# CHECK DUPLICATE (IMPORTANT)
+# -------------------------
+def url_already_scraped(cursor, url):
+    cursor.execute(
+        "SELECT 1 FROM match_videos WHERE source_page_url=?",
+        (url,)
+    )
+    return cursor.fetchone() is not None
 
 
 # -------------------------
 # SPLIT SCORE
 # -------------------------
-def split_score(score): 
+def split_score(score):
     try:
-        parts = score.split("-")
-        return int(parts[0].strip()), int(parts[1].strip())
+        a, b = score.split("-")
+        return int(a.strip()), int(b.strip())
     except:
         return None, None
 
@@ -34,13 +63,17 @@ def split_score(score):
 def extract_video(html_obj):
     html = html_obj.html
 
-    match = re.search(
-        r'https?://cdn-[^"\']+\.streamable\.com/video/mp4/[^"\']+\.mp4[^"\']*',
-        html
-    )
+    # 1. streamable mp4
+    match = re.search(r'https?://cdn-[^"\']+\.streamable\.com/video/mp4/[^"\']+\.mp4[^"\']*', html)
     if match:
         return match.group(0)
 
+    # 2. ANY mp4 (fallback)
+    match = re.search(r'https?://[^"\']+\.mp4[^"\']*', html)
+    if match:
+        return match.group(0)
+
+    # 3. flowplayer JSON
     flow = html_obj.find("div.flowplayer", first=True)
     if flow and flow.attrs.get("data-item"):
         try:
@@ -51,20 +84,22 @@ def extract_video(html_obj):
         except:
             pass
 
+    # 4. iframe (VERY IMPORTANT)
     iframe = html_obj.find("iframe", first=True)
     if iframe:
-        return iframe.attrs.get("src", "")
+        src = iframe.attrs.get("src", "")
+        if src:
+            return src
 
     return ""
-
 
 # -------------------------
 # SCRAPE PAGE
 # -------------------------
 def scrape_page(url):
     try:
-        res = session.get(url, headers={"User-Agent": "Mozilla/5.0"})
-        res.html.render(timeout=30, sleep=2)
+        res = session.get(url, headers=HEADERS)
+        res.html.render(timeout=20, sleep=2)
     except Exception as e:
         print("❌ Render failed:", e)
         return None
@@ -88,14 +123,6 @@ def scrape_page(url):
     date_match = re.search(r'\d{4}-\d{2}-\d{2}', url)
     match_date = date_match.group(0) if date_match else ""
 
-    league = "Unknown"
-    if any(x in title for x in ["Madrid", "Barcelona", "Atletico"]):
-        league = "La Liga"
-    elif any(x in title for x in ["Chelsea", "Arsenal", "Liverpool", "Man"]):
-        league = "Premier League"
-    elif any(x in title for x in ["Juventus", "Inter", "Milan"]):
-        league = "Serie A"
-
     video_url = extract_video(res.html)
 
     return {
@@ -106,7 +133,6 @@ def scrape_page(url):
         "team2_logo": team2_logo,
         "score": score,
         "match_date": match_date,
-        "league": league,
         "video_url": video_url
     }
 
@@ -117,7 +143,6 @@ def scrape_page(url):
 def get_or_create_team(cursor, name, logo):
     cursor.execute("SELECT id FROM teams WHERE name=?", (name,))
     row = cursor.fetchone()
-
     if row:
         return row[0]
 
@@ -128,22 +153,7 @@ def get_or_create_team(cursor, name, logo):
     return cursor.lastrowid
 
 
-def get_or_create_league(cursor, name):
-    cursor.execute("SELECT id FROM leagues WHERE name=?", (name,))
-    row = cursor.fetchone()
-
-    if row:
-        return row[0]
-
-    cursor.execute(
-        "INSERT INTO leagues (name) VALUES (?)",
-        (name,)
-    )
-    return cursor.lastrowid
-
-
-# ✅ FIX: prevent duplicate matches
-def get_or_create_match(cursor, t1, t2, league_id, date, score):
+def get_or_create_match(cursor, t1, t2, date, score):
     cursor.execute("""
     SELECT id FROM matches
     WHERE home_team_id=? AND away_team_id=? AND match_datetime=?
@@ -157,27 +167,18 @@ def get_or_create_match(cursor, t1, t2, league_id, date, score):
 
     cursor.execute("""
     INSERT INTO matches (
-        league_id,
         home_team_id,
         away_team_id,
         home_score,
         away_score,
         match_datetime
     )
-    VALUES (?, ?, ?, ?, ?, ?)
-    """, (
-        league_id,
-        t1,
-        t2,
-        home_score,
-        away_score,
-        date
-    ))
+    VALUES (?, ?, ?, ?, ?)
+    """, (t1, t2, home_score, away_score, date))
 
     return cursor.lastrowid
 
 
-# ✅ FIX: avoid UNIQUE crash
 def insert_video(cursor, match_id, title, video_url, page_url):
     cursor.execute("""
     INSERT OR IGNORE INTO match_videos (
@@ -186,63 +187,67 @@ def insert_video(cursor, match_id, title, video_url, page_url):
     VALUES (?, ?, ?, ?)
     """, (match_id, title, video_url, page_url))
 
-    if cursor.rowcount == 0:
-        print("⚠️ Duplicate video skipped:", page_url)
-
 
 # -------------------------
 # MAIN
 # -------------------------
-def main():
+async def main():
     conn = get_db()
     cursor = conn.cursor()
 
-    urls = get_pending_urls(cursor)
+    async with aiohttp.ClientSession(headers=HEADERS) as session_http:
 
-    print(f"Pending URLs: {len(urls)}")
+        tasks = []
+        for i in range(1, 6):
+            url = f"{BASE_URL}page/{i}/" if i > 1 else BASE_URL
+            tasks.append(fetch(session_http, url))
 
-    for url in urls:
-        print("Scraping:", url)
+        pages = await asyncio.gather(*tasks)
 
-        data = scrape_page(url)
-        if not data:
-            continue
+        all_links = []
+        for html in pages:
+            if not html:
+                continue
+            all_links.extend(parse_links(html))
 
-        if not data["video_url"]:
-            print("⚠️ No video found")
-            continue
+        print(f"Total found: {len(all_links)}")
 
-        team1_id = get_or_create_team(cursor, data["team1"], data["team1_logo"])
-        team2_id = get_or_create_team(cursor, data["team2"], data["team2_logo"])
-        league_id = get_or_create_league(cursor, data["league"])
+        for url in set(all_links):
 
-        match_id = get_or_create_match(
-            cursor,
-            team1_id,
-            team2_id,
-            league_id,
-            data["match_date"],
-            data["score"]
-        )
+            if url_already_scraped(cursor, url):
+                print("⚠️ Already scraped:", url)
+                continue
 
-        insert_video(
-            cursor,
-            match_id,
-            data["title"],
-            data["video_url"],
-            url
-        )
+            print("Scraping:", url)
 
-        cursor.execute("""
-        UPDATE match_scrape_queue
-        SET is_scraped = 1
-        WHERE url = ?
-        """, (url,))
+            data = scrape_page(url)
+            if not data or not data["video_url"]:
+                print("⚠️ No video")
+                continue
 
-        conn.commit()
-        print("✅ Saved everything")
+            t1 = get_or_create_team(cursor, data["team1"], data["team1_logo"])
+            t2 = get_or_create_team(cursor, data["team2"], data["team2_logo"])
 
-        time.sleep(1)
+            match_id = get_or_create_match(
+                cursor,
+                t1,
+                t2,
+                data["match_date"],
+                data["score"]
+            )
+
+            insert_video(
+                cursor,
+                match_id,
+                data["title"],
+                data["video_url"],
+                url
+            )
+
+            conn.commit()
+            print("✅ Saved")
+
+            time.sleep(1)
 
     conn.close()
     session.close()
@@ -250,4 +255,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())

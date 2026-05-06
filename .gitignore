@@ -5,4 +5,26 @@ __pycache__/
 .env
 logs/y
 y
+# Python virtual environment
+.venv/
 
+# Cache files
+__pycache__/
+*.pyc
+
+# Database files
+*.sqlite
+*.db
+
+# Logs
+logs/
+*.log
+cron.log
+
+# Downloads & scraped data
+downloads/
+*.csv
+*.csv.gz
+
+# OS files
+.DS_Store

@@ -9,9 +9,16 @@ from app.controllers.news_controller import (
     get_all_matches,
     get_match_by_id,
     get_all_leagues,
-    get_league_by_id
+    get_league_by_id,
+    get_news_count
 )
 router = APIRouter()
+
+
+
+@router.get("/news/count")
+def news_count():
+    return {"total": get_news_count()}
 
 @router.get("/news")
 def fetch_news():
@@ -78,7 +85,7 @@ def fetch_leagues():
 @router.get("/leagues/{league_id}")
 def fetch_league(league_id: int):
     data = get_league_by_id(league_id)
-
     if not data:
         return {"error": "League not found"}
     return data
+
