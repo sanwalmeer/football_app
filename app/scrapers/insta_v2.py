@@ -1,181 +1,250 @@
-import requests
-import subprocess
-import time
 import os
 import re
 import sys
-import sqlite3
+import time
+import subprocess
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
 
 # ==============================
 # PATH FIX
 # ==============================
 sys.path.append("/home/bitech-office/Sanwal/football_app")
+
 from app.db.connection import get_db
 
 # ==============================
 # CONFIG
 # ==============================
-VIDEO_DIR = "/home/bitech-office/Sanwal/football_app/downloads"
+BASE_MEDIA_DIR = "/home/bitech-office/Sanwal/football_app/media"
+
+VIDEO_DIR = f"{BASE_MEDIA_DIR}/reels"
+THUMB_DIR = f"{BASE_MEDIA_DIR}/thumbnails"
+
+RUN_INTERVAL = 600  # 10 min
+
 os.makedirs(VIDEO_DIR, exist_ok=True)
-
-# 🔴 PUT YOUR REAL COOKIES HERE
-SESSIONID = "YOUR_SESSION_ID"
-CSRF = "YOUR_CSRF_TOKEN"
-
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64)",
-    "X-IG-App-ID": "936619743392459",
-    "X-CSRFToken": CSRF,
-    "Referer": "https://www.instagram.com/"
-}
-
-COOKIES = {
-    "sessionid": SESSIONID,
-    "csrftoken": CSRF
-}
+os.makedirs(THUMB_DIR, exist_ok=True)
 
 # ==============================
-# EXTRACT MEDIA ID FROM REEL
+# UTILS
 # ==============================
-def extract_media_id(shortcode):
-    # simple API call to resolve shortcode → media_id
-    url = f"https://www.instagram.com/api/v1/oembed/?url=https://www.instagram.com/reel/{shortcode}/"
-
-    res = requests.get(url, headers=HEADERS, cookies=COOKIES)
-
-    if res.status_code != 200:
-        print("❌ Failed to resolve media id")
-        return None
-
-    data = res.json()
-    return data.get("media_id")
+def extract_shortcode(url):
+    match = re.search(r"/reel/([^/]+)/", url)
+    return match.group(1) if match else None
 
 
 # ==============================
-# GET VIDEO INFO
+# DRIVER
 # ==============================
-def get_video_info(media_id):
-    url = f"https://www.instagram.com/api/v1/media/{media_id}/info/?hl=en"
+def init_driver():
+    options = webdriver.ChromeOptions()
 
-    res = requests.get(url, headers=HEADERS, cookies=COOKIES)
+    # ✅ HEADLESS MODE (NOW SAFE)
+    options.add_argument("--headless=new")
 
-    if res.status_code != 200:
-        print("❌ API failed:", res.status_code)
-        return None
+    options.add_argument("--disable-gpu")
+    options.add_argument("--window-size=1920,1080")
 
-    return res.json()
+    # 🔥 CRITICAL: persistent session (THIS FIXES LOGIN)
+    options.add_argument("--user-data-dir=/home/bitech-office/.chrome-instagram")
+
+    # reduce detection
+    options.add_argument("--disable-blink-features=AutomationControlled")
+
+    options.add_argument(
+        "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36"
+    )
+
+    driver = webdriver.Chrome(options=options)
+
+    return driver
 
 
 # ==============================
-# EXTRACT VIDEO URL
+# COLLECT REELS
 # ==============================
-def extract_video_url(data):
+def collect_reels(driver, profile_url):
+
+    driver.get(profile_url)
+    time.sleep(8)
+
+    reels = []
+    seen = set()
+
+    for _ in range(6):
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        time.sleep(3)
+
+    links = driver.find_elements(By.TAG_NAME, "a")
+
+    for a in links:
+        try:
+            href = a.get_attribute("href")
+            if not href or "/reel/" not in href:
+                continue
+
+            clean = href.split("?")[0]
+            shortcode = extract_shortcode(clean)
+
+            if not shortcode or shortcode in seen:
+                continue
+
+            seen.add(shortcode)
+            reels.append((clean, shortcode))
+
+        except:
+            continue
+
+    return reels
+
+
+# ==============================
+# DOWNLOAD VIDEO + THUMBNAIL
+# ==============================
+def download_video(reel_url, shortcode):
+
+    video_path = f"{VIDEO_DIR}/{shortcode}.mp4"
+    thumb_path = f"{THUMB_DIR}/{shortcode}.jpg"
+
     try:
-        return data["items"][0]["video_versions"][0]["url"]
-    except:
-        return None
+        print(f"⬇️ Downloading: {shortcode}")
 
+        # VIDEO DOWNLOAD (stable format)
+        subprocess.run([
+            "yt-dlp",
+            "-f", "mp4/best",
+            "-o", video_path,
+            reel_url
+        ], check=True)
 
-# ==============================
-# DOWNLOAD VIA FFMPEG
-# ==============================
-def download_video(video_url, shortcode):
-    output_path = f"{VIDEO_DIR}/{shortcode}.mp4"
-
-    try:
-        print(f"⬇️ Downloading {shortcode}")
-
+        # THUMBNAIL (safe ffmpeg)
         subprocess.run([
             "ffmpeg",
             "-y",
-            "-i", video_url,
-            "-c", "copy",
-            output_path
+            "-i", video_path,
+            "-ss", "1",
+            "-frames:v", "1",
+            thumb_path
         ], check=True)
 
-        return output_path
+        return video_path, thumb_path
 
     except Exception as e:
-        print("❌ ffmpeg failed:", e)
-        return None
+        print(f"❌ DOWNLOAD FAILED {shortcode}: {e}")
+        return None, None
 
 
 # ==============================
-# MAIN PROCESS
+# PROCESS PROFILE
 # ==============================
-def process_shortcode(shortcode):
-    print("\n========================")
-    print("📌 Processing:", shortcode)
+def process_profile(driver, profile_url):
 
-    conn, cur = get_db()
+    print(f"\n📌 SCRAPING: {profile_url}")
 
-    cur.execute("SELECT status FROM instagram_reels WHERE shortcode=?", (shortcode,))
-    row = cur.fetchone()
+    conn = get_db()
+    cur = conn.cursor()
 
-    if row and row[0] == "done":
-        print("⏭️ Already done")
-        return
+    reels = collect_reels(driver, profile_url)
+    print(f"🎥 FOUND {len(reels)} REELS")
 
-    # insert/update
-    cur.execute("""
-        INSERT OR IGNORE INTO instagram_reels (shortcode, status)
-        VALUES (?, 'pending')
-    """, (shortcode,))
-    conn.commit()
+    for reel_url, shortcode in reels:
 
-    # STEP 1: get media id
-    media_id = extract_media_id(shortcode)
-    if not media_id:
-        print("❌ No media id")
-        return
+        try:
+            cur.execute("""
+                SELECT status FROM instagram_reels WHERE shortcode=?
+            """, (shortcode,))
 
-    # STEP 2: get video info
-    data = get_video_info(media_id)
-    if not data:
-        return
+            row = cur.fetchone()
 
-    video_url = extract_video_url(data)
-    if not video_url:
-        print("❌ No video url found")
-        return
+            if row and row[0] in ("done", "downloading", "pending"):
+                print(f"⏭️ SKIPPED: {shortcode}")
+                continue
 
-    # STEP 3: download
-    path = download_video(video_url, shortcode)
+            cur.execute("""
+                INSERT OR IGNORE INTO instagram_reels
+                (shortcode, reel_url, status)
+                VALUES (?, ?, 'pending')
+            """, (shortcode, reel_url))
 
-    # STEP 4: update DB
-    if path:
-        cur.execute("""
-            UPDATE instagram_reels
-            SET status='done', video_path=?
-            WHERE shortcode=?
-        """, (path, shortcode))
-        print("✅ DONE:", shortcode)
-    else:
-        cur.execute("""
-            UPDATE instagram_reels
-            SET status='failed'
-            WHERE shortcode=?
-        """, (shortcode,))
-        print("❌ FAILED:", shortcode)
+            conn.commit()
 
-    conn.commit()
+            cur.execute("""
+                UPDATE instagram_reels
+                SET status='downloading'
+                WHERE shortcode=?
+            """, (shortcode,))
+
+            conn.commit()
+
+            video_path, thumb_path = download_video(reel_url, shortcode)
+
+            if video_path:
+
+                # ONLY update existing columns (safe with your DB)
+                cur.execute("""
+                    UPDATE instagram_reels
+                    SET status='done',
+                        video_path=?
+                    WHERE shortcode=?
+                """, (video_path, shortcode))
+
+                print(f"✅ DONE: {shortcode}")
+
+            else:
+
+                cur.execute("""
+                    UPDATE instagram_reels
+                    SET status='failed'
+                    WHERE shortcode=?
+                """, (shortcode,))
+
+                print(f"❌ FAILED: {shortcode}")
+
+            conn.commit()
+            time.sleep(2)
+
+        except Exception as e:
+            print(f"❌ ERROR {shortcode}: {e}")
+
     conn.close()
 
 
 # ==============================
-# TEST RUN
+# MAIN LOOP
 # ==============================
 if __name__ == "__main__":
 
-    test_url = "https://www.instagram.com/espnfc/reels/?hl=en"
-
-    # manually extracted shortcodes (you can automate later)
-    test_shortcodes = [
-        "CyRNhFbO1KR",
-        "DX7LlWpMl16",
-        "DX7M9uYDvLY"
+    profiles = [
+        "https://www.instagram.com/futoreels/",
+        "https://www.instagram.com/premierleague/",
+        "https://www.instagram.com/fcbarcelona/"
     ]
 
-    for sc in test_shortcodes:
-        process_shortcode(sc)
-        time.sleep(3)
+    driver = init_driver()
+
+    try:
+        while True:
+
+            print("\n🚀 SCRAPER STARTED\n")
+
+            start_time = time.time()
+
+            for profile in profiles:
+                process_profile(driver, profile)
+
+            end_time = time.time()
+
+            print("\n==============================")
+            print(f"⏱️ TOTAL TIME: {end_time - start_time:.2f}s")
+            print("==============================\n")
+
+            print("😴 SLEEPING...\n")
+            time.sleep(RUN_INTERVAL)
+
+    except KeyboardInterrupt:
+        print("🛑 STOPPED MANUALLY")
+
+    finally:
+        driver.quit()

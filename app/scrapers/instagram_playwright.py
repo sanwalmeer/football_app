@@ -16,9 +16,7 @@ from app.db.connection import get_db
 # ==============================
 VIDEO_DIR = "/home/bitech-office/Sanwal/football_app/downloads"
 RUN_INTERVAL = 600
-
 os.makedirs(VIDEO_DIR, exist_ok=True)
-
 
 # ==============================
 # UTILS
@@ -197,7 +195,6 @@ def main():
 
         finally:
             browser.close()
-
 
 if __name__ == "__main__":
     main()

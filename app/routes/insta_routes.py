@@ -1,5 +1,4 @@
 from fastapi import APIRouter
-
 from app.controllers.insta_videos_controller import (
     get_all_instagram_videos,
     get_instagram_video,

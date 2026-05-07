@@ -28,3 +28,12 @@ downloads/
 
 # OS files
 .DS_Store
+media/
+*.mp4
+*.jpg
+*.db
+venv/
+__pycache__/
+git add app/
+git add .gitignore
+

@@ -16,7 +16,9 @@ from app.db.connection  import get_db
 # ==============================
 # CONFIG
 # ==============================
-VIDEO_DIR = "/home/bitech-office/Sanwal/football_app/downloads"
+BASE_MEDIA_DIR = "/home/bitech-office/Sanwal/football_app/media"
+VIDEO_DIR = f"{BASE_MEDIA_DIR}/reels"
+THUMB_DIR = f"{BASE_MEDIA_DIR}/thumbnails"
 RUN_INTERVAL = 600  # 10 min
 
 os.makedirs(VIDEO_DIR, exist_ok=True)
@@ -76,40 +78,44 @@ def collect_reels(driver, profile_url):
 # DOWNLOAD
 # ==============================
 def download_video(reel_url, shortcode):
-    output_path = f"{VIDEO_DIR}/{shortcode}.mp4"
+    video_path = f"{VIDEO_DIR}/{shortcode}.mp4"
+    thumb_path = f"{THUMB_DIR}/{shortcode}.jpg"
 
     try:
         print(f"⬇️ Processing {shortcode}")
 
-        # STEP 1: Get direct video URL using yt-dlp
-        result = subprocess.run([
+        # ======================
+        # STEP 1: DOWNLOAD VIDEO
+        # ======================
+        subprocess.run([
+
             "yt-dlp",
             "-f", "best",
-            "-g",
+            "-o", video_path,
             reel_url
-        ], capture_output=True, text=True, check=True)
+            
+        ], check=True)
 
-        video_url = result.stdout.strip()
-
-        if not video_url:
-            print(f"❌ No video URL found for {shortcode}")
-            return None
-
-        # STEP 2: Download using FFmpeg
+        # ======================
+        # STEP 2: THUMBNAIL
+        # ======================
         subprocess.run([
             "ffmpeg",
             "-y",
-            "-i", video_url,
-            "-c:v", "copy",
-            "-c:a", "copy",
-            output_path
+            "-i", video_path,
+            "-ss", "1",
+            "-vframes", "1",
+            "-q:v", "2",
+            thumb_path
         ], check=True)
 
-        return output_path
+        return video_path, thumb_path
 
     except Exception as e:
         print(f"❌ Failed {shortcode}: {e}")
-        return None
+        return None, None
+    
+
     
 # ==============================
 # PROCESS PROFILE
@@ -125,17 +131,18 @@ def process_profile(driver, profile_url):
 
     for reel_url, shortcode in reels:
         try:
-            # STEP 1: check status
+            # STEP 1: check existing record
             cur.execute("""
                 SELECT status FROM instagram_reels WHERE shortcode=?
             """, (shortcode,))
             row = cur.fetchone()
 
-            if row and row[0] == "done":
-                print(f"⏭️ Already done: {shortcode}")
+            # Skip if already processed or in progress
+            if row and row[0] in ("done", "downloading", "pending"):
+                print(f"⏭️ Skipped (already exists): {shortcode}")
                 continue
 
-            # STEP 2: insert if new
+            # STEP 2: insert new record
             cur.execute("""
                 INSERT OR IGNORE INTO instagram_reels (shortcode, reel_url, status)
                 VALUES (?, ?, 'pending')
@@ -150,33 +157,37 @@ def process_profile(driver, profile_url):
             """, (shortcode,))
             conn.commit()
 
-            # STEP 4: download
-            path = download_video(reel_url, shortcode)
+            # STEP 4: download + thumbnail
+            video_path, thumb_path = download_video(reel_url, shortcode)
 
             # STEP 5: update result
-            if path:
+            if video_path:
                 cur.execute("""
                     UPDATE instagram_reels
-                    SET status='done', video_path=?
+                    SET status='done',
+                        video_path=?,
+                        thumbnail_path=?
                     WHERE shortcode=?
-                """, (path, shortcode))
+                """, (video_path, thumb_path, shortcode))
+
                 print(f"✅ DONE: {shortcode}")
+
             else:
                 cur.execute("""
                     UPDATE instagram_reels
                     SET status='failed'
                     WHERE shortcode=?
                 """, (shortcode,))
+
                 print(f"❌ FAILED: {shortcode}")
 
             conn.commit()
             time.sleep(2)
 
         except Exception as e:
-            print("❌ ERROR:", e)
+            print(f"❌ ERROR {shortcode}:", e)
 
     conn.close()
-
 
 # ==============================
 # MAIN LOOP
@@ -187,13 +198,10 @@ if __name__ == "__main__":
         "https://www.instagram.com/premierleague/",
         "https://www.instagram.com/fcbarcelona/reels/"
     ]
-
     driver = init_driver()
-
     try:
         while True:
             print("\n🚀 SCRAPER START\n")
-
             start_time = time.time()   # ⏱️ START TOTAL TIME
 
             for profile in profiles:
